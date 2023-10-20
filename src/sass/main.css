@@ -72,4 +72,157 @@ li {
   .container {
     width: 1920px;
   }
+}
+
+.section-q-n-a {
+  background-color: #ECEFF7;
+  padding-bottom: 50px;
+  padding-top: 24px;
+}
+@media screen and (max-width: 1366px) {
+  .section-q-n-a {
+    width: 390px;
+  }
+}
+
+.title {
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 44px;
+  margin-bottom: 40px;
+  color: #2887D9;
+}
+
+@media screen and (min-width: 1366px) {
+  .container-1 {
+    width: 300px;
+    height: 1100px;
+    border-radius: 50px;
+    margin-left: 40px;
+    background: #F3DCDC;
+  }
+}
+
+.list {
+  margin-left: 35px;
+  padding-top: 30px;
+}
+
+.item {
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+@media screen and (min-width: 1366px) {
+  .item {
+    padding-bottom: 30px;
+  }
+}
+
+.link {
+  color: #3A3B3D;
+}
+
+.link:hover,
+.link:focus {
+  color: #2887D9;
+}
+
+.main-container {
+  display: flex;
+}
+
+.container-2 .item {
+  color: #2887D9;
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 32px 32px 32px 23px;
+  border-bottom: 1px solid #72B7F2;
+  width: 900px;
+}
+
+.container-2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1366px) {
+  .container-2 {
+    display: none;
+  }
+}
+
+.circle-1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #72B7F2;
+  margin-left: 26px;
+  margin-bottom: 170px;
+  margin-top: 50px;
+}
+@media screen and (max-width: 1366px) {
+  .circle-1 {
+    display: none;
+  }
+}
+
+.circle-2 {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 2px solid #72B7F2;
+  margin-left: auto;
+  margin-right: 5px;
+  margin-bottom: 170px;
+}
+@media screen and (max-width: 1366px) {
+  .circle-2 {
+    display: none;
+  }
+}
+
+.circle-3 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid #72B7F2;
+  margin-left: 10px;
+}
+@media screen and (max-width: 1366px) {
+  .circle-3 {
+    display: none;
+  }
+}
+
+.accordion-body {
+  width: 500px;
+}
+
+.accordion-item {
+  border: none;
+}
+
+.item-2 {
+  color: #3A3B3D;
+  font-family: "Open Sans";
+  font-size: 22.767px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 5px;
+}
+
+.accordion-collapse,
+.accordion-button {
+  background-color: #ECEFF7;
 }/*# sourceMappingURL=main.css.map */
