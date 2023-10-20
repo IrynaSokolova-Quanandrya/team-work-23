@@ -1,6 +1,18 @@
+
 html {
   scroll-behavior: smooth;
 }
+
+body{
+  font-family: $mainFonts;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  color: $primarytextColor;
+ 
+}
+
 h1,
 h2,
 h3,
@@ -40,5 +52,5 @@ a {
 }
 
 li {
-  list-style-type: none; /* Убираем маркеры */
+  list-style-type: none; 
 }
