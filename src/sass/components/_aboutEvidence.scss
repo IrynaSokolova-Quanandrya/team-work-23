@@ -1,0 +1,68 @@
+.about-evidence .section-title{
+    color: $primarytextColor;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.numbers-list .list-item{
+    display: flex;
+}
+
+.quantity{
+    text-align: center;
+    font-family: $secondaryFonts;
+    font-size: 64px;
+}
+
+.quantity-of-patients{
+    color: #EDBBD6;
+    margin-right: 8px;
+}
+
+.quantity-of-vaccination{
+    color: #AFD1F1;
+    margin-right: 90px;
+}
+
+.quantity-of-research{
+    color: #9BE0DC;
+    margin-right: 36px;
+}
+
+.research{
+    width: 128px;
+}
+
+.quantity-of-years{
+    color: #FACF4F;
+    margin-right: 88px;
+}
+
+.description-quantities{
+    color:$primarytextColor;
+    text-align: center;
+    font-family: $secondaryFonts;
+    font-size: 16px;
+
+    align-self: flex-end;
+    margin-bottom: 20px;
+    
+}
+
+.bgc-dark-vanilla{
+    background-color: #F3DFEA;
+}
+
+.bgc-pale-aqua{
+    background-color: #D0E1F1;
+}
+
+.bgc-light-cyan{
+    background-color: #CEF2F0 ;
+}
+
+.bgc-jasmine{
+    background-color:#FEDE7ECC;
+}
