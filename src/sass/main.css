@@ -1,16 +1,13 @@
-
 html {
   scroll-behavior: smooth;
 }
 
-body{
-  font-family: $mainFonts;
+body {
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-
-  color: $primarytextColor;
- 
+  color: #2887D9;
 }
 
 h1,
@@ -52,5 +49,27 @@ a {
 }
 
 li {
-  list-style-type: none; 
+  list-style-type: none;
 }
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 390px) {
+  .container {
+    width: 390px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .container {
+    width: 1366px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .container {
+    width: 1920px;
+  }
+}/*# sourceMappingURL=main.css.map */
