@@ -1,0 +1,42 @@
+.container{
+    outline: solid 2px red
+}
+
+.logo-div{
+    @media screen and (max-width: 1355px) {
+        padding: 22px 13px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.burger-button,
+.search,
+.login-language button{
+    border: none;
+    background-color: transparent;
+}
+
+.logo img{
+    width: 186px;
+    height: 48px;
+}
+
+svg{
+    fill: transparent;
+}
+
+.login-language{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: solid 1px $buttonColor;
+    border-bottom: solid 1px $buttonColor;
+
+    button{
+        color: $secondaryTextColor;
+        font-family: $secondaryFonts;
+        font-size: 16px;
+    }
+}
