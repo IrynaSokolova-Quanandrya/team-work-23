@@ -1,4 +1,4 @@
-h1{
+.tittle-dr{
 font-size: 48px;
 font-weight: 600;
 line-height: 44px;
@@ -13,18 +13,18 @@ color: #2887D9;
 
 }
 
-.item-list{
+.item-list-dr{
     display: flex;
     justify-content: space-between;
 }
 
-.list{
+.list-dr{
     display: block;
     margin-top: 50px;
     margin-left: 25px;
 }
 
-.nomber {
+.nomber-p {
 color: #D1A4BC;
 
 font-size: 96px;
@@ -43,7 +43,7 @@ text-align: center ;
 
 }
 
-.p{
+.p-doctor{
 
 font-size: 32px;
 font-weight: 400;
@@ -53,7 +53,7 @@ text-align: center;
 
 }
 
-button{
+.search-dr{
 width: 668px;
 height: 80px;
 top: 316px;
@@ -69,7 +69,7 @@ text-align: center;
 
 }
 
-.border{
+.frame{
 display: block;
 margin-top: 150px;
 margin-bottom: 0px;
@@ -83,7 +83,7 @@ height: 396px;
 
 }
 
-.border h1{
+.border-box h1{
 margin-top: 20px;
 margin-left: 25px;
 }
