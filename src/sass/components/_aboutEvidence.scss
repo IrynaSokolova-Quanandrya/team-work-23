@@ -1,68 +1,192 @@
 .about-evidence .section-title{
     color: $primarytextColor;
 
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 18px;
+    @media screen and (min-width: $mobile){
+
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18px;
+
+        margin-bottom: 24px;
+    }
+
+    @media screen and (min-width: $tablet) {
+
+        font-size: 34.15px;
+        font-weight: 600;
+        line-height: 31.304px; 
+
+        margin-bottom: 48px;
+    }
+
+    @media screen and (min-width: $desktop) {
+
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 44px;
+
+        margin-bottom: 50px;
+    }
+}
+
+.numbers-list{
+    @media screen and (min-width:$tablet) {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .numbers-list .list-item{
-    display: flex;
+    @media screen and (min-width: $mobile){
+        display: flex; 
+    }
+
+    @media screen and (min-width: $tablet) {
+        
+        width: calc(100% / 2);
+    }
+    
+    
+}
+
+.numbers-list .list-item{
+    @media screen and (min-width:$tablet) {
+        width: 620px;
+    }
+}
+
+.numbers-list .list-item span{
+    @media screen and (min-width: $mobile) {
+        display: flex;
+    }
+
+    @media screen and (min-width: $tablet) {
+        flex-direction: column;
+    }
 }
 
 .quantity{
-    text-align: center;
     font-family: $secondaryFonts;
-    font-size: 64px;
+
+    @media screen and (min-width:$mobile) {
+        font-size: 64px;
+    }
+    
+    @media screen and (min-width: $tablet) {
+
+        font-size: 113.833px;
+        font-weight: 300;
+    }
+
+    @media screen and (min-width: $desktop) {
+
+        font-size: 160px;
+        font-weight: 300;
+
+    }
+
 }
 
 .quantity-of-patients{
     color: #EDBBD6;
-    margin-right: 8px;
+
+    @media screen and (min-width:$mobile) {
+        margin-right: 8px;
+    }
+
+    
 }
 
 .quantity-of-vaccination{
     color: #AFD1F1;
-    margin-right: 90px;
+
+    @media screen and (min-width:$mobile) {
+        margin-right: 90px;
+    }
+    
 }
 
 .quantity-of-research{
     color: #9BE0DC;
-    margin-right: 36px;
+
+    @media screen and (min-width:$mobile) {
+        margin-right: 36px;
+    }
+    
 }
 
 .research{
+    @media screen and (max-width:1365px) {
+        
+    }
     width: 128px;
 }
 
 .quantity-of-years{
     color: #FACF4F;
-    margin-right: 88px;
+    
+    @media screen and (min-width:$mobile) {
+        margin-right: 88px;
+    }
+    
 }
 
 .description-quantities{
     color:$primarytextColor;
-    text-align: center;
     font-family: $secondaryFonts;
-    font-size: 16px;
-
-    align-self: flex-end;
-    margin-bottom: 20px;
     
+    @media screen  and (min-width: $mobile){
+        font-size: 16px;
+    }
+    
+    @media screen and (min-width: $tablet){
+        font-size: 22.767px;
+    }
+
+    @media screen and (min-width: $desktop){
+        font-size: 32px;
+    }
+    
+
+    @media screen and (max-width:1365px) {
+        text-align: center;
+        align-self: flex-end;
+    }
 }
 
 .bgc-dark-vanilla{
     background-color: #F3DFEA;
+
+    @media screen and (min-width: $tablet) and (max-width:1919px){
+        padding-top:49.09px;
+        padding-bottom: 44.91px ;
+    }
+    
 }
 
 .bgc-pale-aqua{
     background-color: #D0E1F1;
+    @media screen and (min-width: $tablet) and (max-width:1919px){
+        padding-top: 54.07px;
+        padding-bottom:49.93px ;
+    }
+        
 }
 
 .bgc-light-cyan{
     background-color: #CEF2F0 ;
+
+    @media screen and (min-width: $tablet) and (max-width:1919px){
+        padding-top: 54.07px;
+        padding-bottom:49.93px ;
+    }
 }
 
 .bgc-jasmine{
     background-color:#FEDE7ECC;
+
+    @media screen and (min-width: $tablet) and (max-width:1919px){
+        padding-top: 56.94px;
+        padding-bottom: 49.93px ;
+    }
 }
