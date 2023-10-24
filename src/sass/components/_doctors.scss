@@ -9,6 +9,8 @@ width: 147px;
 height: 44px;
 top: 40px;
 left: 36px;
+margin-top: 20px;
+margin-left: 35px;
 color: #2887D9;
 
 }
@@ -21,7 +23,7 @@ color: #2887D9;
 .list-dr{
     display: block;
     margin-top: 50px;
-    margin-left: 25px;
+    margin-left: 5px;
 }
 
 .nomber-p {
@@ -37,7 +39,7 @@ margin: 10px;
 
 }
 .old{
- width: 86px;
+font-size: 32px;
 color: #D1A4BC;
 text-align: center ;
 
@@ -50,8 +52,26 @@ font-weight: 400;
 line-height: 44px;
 letter-spacing: 0em;
 text-align: center;
+padding-top: 25px;
+
+
+color: #2887D9;
 
 }
+
+.p-doctor-2{
+
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 10px;
+    
+    
+    color: #2887D9;
+    
+    }
 
 .search-dr{
 width: 668px;
@@ -65,7 +85,7 @@ color:#FFFFFF;
 background: #72B7F2;
 margin-left: 50px;
 text-align: center;
-
+font-size: 32px;
 
 }
 
