@@ -1,3 +1,4 @@
+
 .about-evidence .section-title{
     color: $primarytextColor;
 
@@ -90,7 +91,7 @@
 .quantity-of-patients{
     color: #EDBBD6;
 
-    @media screen and (min-width:$mobile) {
+    @media screen and (max-width:1365px) {
         margin-right: 8px;
     }
 
@@ -100,7 +101,7 @@
 .quantity-of-vaccination{
     color: #AFD1F1;
 
-    @media screen and (min-width:$mobile) {
+    @media screen and (max-width:1365px) {
         margin-right: 90px;
     }
     
@@ -109,7 +110,7 @@
 .quantity-of-research{
     color: #9BE0DC;
 
-    @media screen and (min-width:$mobile) {
+    @media screen and (max-width:1365px) {
         margin-right: 36px;
     }
     
@@ -117,15 +118,18 @@
 
 .research{
     @media screen and (max-width:1365px) {
-        
+        width: 128px;
     }
-    width: 128px;
+    
+    @media screen and (max-width: $tablet) {
+        width: 292px;
+    }
 }
 
 .quantity-of-years{
     color: #FACF4F;
     
-    @media screen and (min-width:$mobile) {
+    @media screen and (max-width: 1365px) {
         margin-right: 88px;
     }
     
