@@ -1,3 +1,36 @@
+.had {
+  color: #2887D9;
+  font-family: Montserrat;
+  font-size: 140px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 64px;
+  padding-bottom: 40px;
+}
+
+.podhad {
+  color: #2887D9;
+  font-family: Open-Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.hero-button {
+  border-radius: 50px;
+  background: var(--blue-blue, #72B7F2);
+}
+
+.liliputy {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+}
+
 h1 {
   font-size: 48px;
   font-weight: 600;
