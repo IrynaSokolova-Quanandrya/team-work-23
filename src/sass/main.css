@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   scroll-behavior: smooth;
 }
@@ -34,6 +35,7 @@ img {
 }
 
 a {
+  color: #3A3B3D;
   text-decoration: none;
 }
 
@@ -74,7 +76,60 @@ li {
   }
 }
 
+.container {
+  outline: solid 2px red;
+}
+
+@media screen and (max-width: 1355px) {
+  .logo-div {
+    padding: 22px 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.burger-button,
+.search,
+.login-language button {
+  border: none;
+  background-color: transparent;
+}
+
 .logo img {
   width: 186px;
   height: 48px;
+}
+
+svg {
+  fill: transparent;
+}
+
+.login-language {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 13px 10px 22px;
+  border-top: solid 1px #72B7F2;
+  border-bottom: solid 1px #72B7F2;
+}
+.login-language .cabinet::before {
+  content: "";
+  background-image: url("../../images/header/vhіd-v-kabіnet.svg");
+}
+.login-language button {
+  color: #3A3B3D;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+.login-language .eng {
+  color: #D0E1F1;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.nav-item {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 44px;
 }/*# sourceMappingURL=main.css.map */
