@@ -77,7 +77,7 @@ svg{
 }
 
 .nav-item{
-    border-bottom: solid 1px red;
+    border-bottom: solid 1px #c2c8d6;
     font-family: $secondaryFonts;
     font-size: 16px;
     line-height: 44px;
@@ -88,7 +88,28 @@ svg{
 }
 
 .address{
+    margin-bottom: 16px;
 
+    .item::before{
+        content: '';
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 28px;
+        height: 28px;
+    }
+
+    .map::before{
+        background-image: url('../images/header/map.svg');
+    }
+
+    .sms::before{
+        background-image: url('../images/header/sms.svg');
+    }
+
+    .callcalling::before{
+        background-image: url('../images/header/callcalling.svg');
+    }
 
     .item p{
         color: $primarytextColor;
@@ -102,5 +123,15 @@ svg{
         font-family: $secondaryFonts;
         font-size: 16px;
         line-height: 22px;
+    }
+}
+
+.social-networks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .item:not(:first-child){
+        margin-left: 36px;
     }
 }
