@@ -43,7 +43,7 @@
 }
 
 .list-q-n-a {
-    margin-left: 40px;
+    margin-left: 20px;
     padding-top: 30px;
 
     @media screen and (max-width: 1366px) {
@@ -53,9 +53,14 @@
 }
 
 .img-q-n-a {
-    @media screen and (min-width: 1336px) {
+    padding-left: 30px;
+    @media screen and (min-width: 1366px) {
         display: none;
     }
+}
+
+.list-and-img {
+    display: flex;
 }
 
 .item {
@@ -92,6 +97,8 @@ line-height: 22px;
 }
 
 .container-2 .item {
+position: static;
+
     color: #2887D9;
     font-family: 'Open Sans';
     font-size: 22px;
@@ -180,6 +187,7 @@ line-height: 22px;
 .accordion-collapse,
 .accordion-button  {
     background-color: #ECEFF7;
+    margin-left: 0;
 }
 
 .section-q-n-a {
