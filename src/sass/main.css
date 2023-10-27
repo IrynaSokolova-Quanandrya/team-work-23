@@ -1,0 +1,135 @@
+@charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #2887D9;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #3A3B3D;
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 390px) {
+  .container {
+    width: 390px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .container {
+    width: 1366px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .container {
+    width: 1920px;
+  }
+}
+
+.container {
+  outline: solid 2px red;
+}
+
+@media screen and (max-width: 1355px) {
+  .logo-div {
+    padding: 22px 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.burger-button,
+.search,
+.login-language button {
+  border: none;
+  background-color: transparent;
+}
+
+.logo img {
+  width: 186px;
+  height: 48px;
+}
+
+svg {
+  fill: transparent;
+}
+
+.login-language {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 13px 10px 22px;
+  border-top: solid 1px #72B7F2;
+  border-bottom: solid 1px #72B7F2;
+}
+.login-language .cabinet::before {
+  content: "";
+  background-image: url("../../images/header/vhіd-v-kabіnet.svg");
+}
+.login-language button {
+  color: #3A3B3D;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+.login-language .eng {
+  color: #D0E1F1;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.nav-item {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 44px;
+}/*# sourceMappingURL=main.css.map */
