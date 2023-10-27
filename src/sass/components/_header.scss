@@ -1,0 +1,137 @@
+.container{
+    outline: solid 2px red
+}
+
+.logo-div{
+    @media screen and (max-width: 1355px) {
+        padding-bottom: 13px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.burger-button,
+.search,
+.login-language button{
+    border: none;
+    background-color: transparent;
+}
+
+.logo img{
+    width: 186px;
+    height: 48px;
+}
+
+svg{
+    fill: transparent;
+}
+
+.login-language{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+    border-top: solid 1px $buttonColor;
+    border-bottom: solid 1px $buttonColor;
+
+    .cabinet::before,
+    .global::before{
+        content: '';
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 24px;
+        width: 24px;
+        margin-right: 12px;
+    }
+
+    .cabinet::before{
+        background-image: url('../images/header/vhіd-v-kabіnet.svg');
+    }
+
+    .global::before{
+        background-image: url('../images/header/global.svg');
+    }
+
+    button{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: $secondaryTextColor;
+        font-family: $secondaryFonts;
+        font-size: 16px;
+    }
+
+    .eng{
+        color: #D0E1F1;
+        font-family: $secondaryFonts;
+        font-size: 16px;
+    }
+}
+
+.nav-list{
+    margin-bottom: 80px;
+}
+
+.nav-item{
+    border-bottom: solid 1px #c2c8d6;
+    font-family: $secondaryFonts;
+    font-size: 16px;
+    line-height: 44px;
+}
+
+.nav-item:not(:last-child){
+    margin-bottom: 8px;
+}
+
+.address{
+    margin-bottom: 16px;
+
+    .item::before{
+        content: '';
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 28px;
+        height: 28px;
+    }
+
+    .map::before{
+        background-image: url('../images/header/map.svg');
+    }
+
+    .sms::before{
+        background-image: url('../images/header/sms.svg');
+    }
+
+    .callcalling::before{
+        background-image: url('../images/header/callcalling.svg');
+    }
+
+    .item p{
+        color: $primarytextColor;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+
+    address{
+        color: $secondaryTextColor;
+        font-family: $secondaryFonts;
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+.social-networks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .item:not(:first-child){
+        margin-left: 36px;
+    }
+}

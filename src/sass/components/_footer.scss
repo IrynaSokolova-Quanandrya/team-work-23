@@ -1,0 +1,306 @@
+footer{
+        background-color: #D0E1F1;
+    @media screen and (max-width:1365px) {
+        background-color: #fff;
+    }
+
+}
+
+.first-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    @media screen and (min-width:$desktop) {
+        padding: 18px 126px 18px 125px;
+    }
+
+    @media screen and (min-width:$tablet),(max-width:1919){
+        padding: 12px 83px 1px 83px;
+        flex-wrap: nowrap;
+    }
+}
+
+.first-list{
+    display: flex;
+    flex-direction: row;
+    @media screen and (max-width:1365px) {
+        flex-direction: column;
+        gap: 16px;
+        border-top: 1px solid var(--blue-blue, #72B7F2);
+    }
+
+    @media screen and (min-width:$tablet) and (max-width:1919) {
+        margin: 0;
+    }
+}
+
+.first-items{
+    display: flex;
+    flex-direction: row;
+    
+    @media screen and (max-width:1365px) {
+        gap: 16px;
+    }
+
+    @media screen and (min-width:$tablet),(max-width:1919) {
+        // padding: 0px 31px 0px 13px;
+        gap: 21px;
+        margin-right: 100px;
+    }
+
+    @media screen and (min-width:$desktop) {
+        padding: 1px 0px 2px 23px;
+        gap: 30px;
+        margin-right: 140px; 
+    }
+
+}
+
+.first-list-text{
+    @media screen and (min-width:$tablet),(max-width:1919){
+        color: var(--blue-dark-blue, #2887D9);
+            font-family: Open Sans;
+            font-size: 11.383px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            margin-bottom: 0;
+    }
+
+    @media screen and (max-width:1365px) {
+        color: var(--blue-dark-blue, #2887D9);
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 18px;
+    }
+
+
+}
+
+.first-list-contacts{
+    @media screen and (min-width:$tablet),(max-width:1919) {
+        color: var(--gray-maintext, #3A3B3D);
+            font-family: Open Sans;
+            font-size: 11.383px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+    }
+
+    @media screen and (max-width:1365px) {
+        color: var(--gray-maintext, #3A3B3D);
+            font-family: Open Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+    }
+}
+
+.firsr-svg{
+    width: 42px;
+    height: 42px;
+
+    @media screen and (max-width:1365px) {
+        width: 40px;
+        height: 40px;
+    }
+
+         @media screen and (min-width:$tablet),(max-width:1919){
+            width: 30px;
+            height: 30px;
+         }
+}
+
+.svg-list{
+    display: flex;
+    flex-direction: row;
+    @media screen and (max-width:1365px) {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 16px;
+        gap: 24px;
+    }
+
+    @media screen and (min-width:$desktop) {
+        gap: 16px;
+    }
+        @media screen and (min-width:$tablet), (max-width:1919) {
+            gap: 12px;
+        }
+}
+
+.second-container{
+    display: flex;
+    flex-direction: row;
+    @media screen and (min-width:$tablet),(max-width:1919){
+        border-top: 1px solid #72B7F2;
+        padding-top: 8px;
+    }
+
+    @media screen and (max-width:1365px) {
+        display: none;
+    }
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    @media screen and (min-width:$tablet),(max-width:1919){
+        padding-left: 38px;
+        padding-top: 34px;
+        padding-right: 89px;
+    }
+}
+// Our clinic
+
+.our-clinic-list{
+    
+    @media screen and (min-width:$tablet),(max-width:1919){
+        padding: 0;
+        margin-right: 161px;
+    }
+}
+
+.our-clinic-title{
+    color: #2887D9;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+    @media screen and (min-width:$tablet),(max-width:1919){
+        font-size: 11.383px;
+        margin-bottom: 8px;
+    }
+
+        @media screen and (min-width:$desktop) {
+            font-size: 16px;
+        }
+}
+
+.our-clinic-text::before{
+    content: '';
+    display: inline-block;
+        width: 3px;
+        height: 3px;
+        border: 1px solid #3A3B3D;
+        border-radius: 100%;
+        background-color: #3A3B3D;
+        margin-right: 8px;
+        margin-bottom: 2px;
+}
+
+.our-clinic-text{
+    color: #3A3B3D;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+
+    @media screen and (min-width:$tablet),(max-width:1919) {
+        font-size: 11.383px;
+    }
+
+    @media screen and (min-width:$desktop) {
+            font-size: 16px;
+        }
+}
+
+// Navigation
+
+.navigation-list{
+    padding: 0;
+    margin-bottom: 17px;
+    margin-right: 247px;
+}
+
+.navigation-items{
+    @media screen and (min-width:$tablet),(max-width:1919) {
+        &:not(:last-child) {
+            padding-bottom: 8px;
+        }
+    }
+    
+}
+
+.navigation-title{
+    color: #2887D9;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    
+    @media screen and (min-width:$tablet),(max-width:1919){
+        font-size: 11.383px;
+        margin-bottom: 8px;
+    }
+
+    @media screen and (min-width:$desktop) {
+        font-size: 16px;
+    }
+}
+
+.navigation-link{
+    color: #2887D9;
+    font-family: Open Sans;
+    font-size: 11.383px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+
+}
+
+// Our-services
+
+.our-services-list{
+    padding: 0;
+    
+    @media screen and (min-width:$tablet),(max-width:1919){
+        margin-right: 216px;
+    }
+}
+
+.our-services-items{
+    @media screen and (min-width:$tablet),(max-width:1919){
+        &:not(:last-child) {
+                padding-bottom: 8px;
+            }
+    }
+}
+
+.our-services-title{
+    color: var(--blue-dark-blue, #2887D9);
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+    
+    @media screen and (min-width:$tablet),(max-width:1919){
+        font-size: 11.383px;
+    }
+
+    @media screen and (min-width:$desktop) {
+        font-size: 16px;
+    }
+}
+
+.our-services-link{
+    color: #2887D9;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+
+    @media screen and (min-width:$tablet),(max-width:1919) {
+        font-size: 11.383px;
+        margin-bottom: 8px;
+    }
+        
+    @media screen and (min-width:$desktop) {
+        font-size: 16px;
+    }
+}
