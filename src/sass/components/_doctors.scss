@@ -1,3 +1,7 @@
+.hero-dr{
+    position: relative;
+}
+
 .tittle-dr{
 font-size: 48px;
 font-weight: 600;
@@ -110,7 +114,7 @@ margin-left: 25px;
 
 
 .img-div{
-    width: 908px;
+width: 908px;
 height: 853px;
 }
 
@@ -118,16 +122,14 @@ height: 853px;
     display: flex;
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
 
     width: 908px;
 
 }
 
 
-.foto{
-margin-top: 32px;
-margin-right: 52px;
+.fotka{
 
 
 
