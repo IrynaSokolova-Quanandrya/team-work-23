@@ -38,12 +38,8 @@
 }
 
 .numbers-list .list-item{
-    @media screen and (min-width: $mobile){
-        display: flex; 
-    }
 
     @media screen and (min-width: $tablet) {
-        
         width: calc(100% / 2);
     }
     
@@ -53,16 +49,6 @@
 .numbers-list .list-item{
     @media screen and (min-width:$tablet) {
         width: 620px;
-    }
-}
-
-.numbers-list .list-item span{
-    @media screen and (min-width: $mobile) {
-        display: flex;
-    }
-
-    @media screen and (min-width: $tablet) {
-        flex-direction: column;
     }
 }
 
@@ -90,29 +76,27 @@
 
 .quantity-of-patients{
     color: #EDBBD6;
-
-    @media screen and (max-width:1365px) {
-        margin-right: 8px;
-    }
-
     
+}
+
+.patients{
+    @media screen and (max-width:1365px) {
+        margin-left: 8px;
+    }
 }
 
 .quantity-of-vaccination{
     color: #AFD1F1;
+}
 
+.vaccination{
     @media screen and (max-width:1365px) {
-        margin-right: 90px;
+        margin-left: 90px;
     }
-    
 }
 
 .quantity-of-research{
     color: #9BE0DC;
-
-    @media screen and (max-width:1365px) {
-        margin-right: 36px;
-    }
     
 }
 
@@ -120,19 +104,27 @@
     @media screen and (max-width:1365px) {
         width: 128px;
     }
+
+    @media screen and (max-width:1365px) {
+        margin-left: 36px;
+    }
     
     @media screen and (max-width: $tablet) {
         width: 292px;
     }
+
+    
 }
 
 .quantity-of-years{
     color: #FACF4F;
     
+}
+
+.years{
     @media screen and (max-width: 1365px) {
-        margin-right: 88px;
+        margin-left: 88px;
     }
-    
 }
 
 .description-quantities{
