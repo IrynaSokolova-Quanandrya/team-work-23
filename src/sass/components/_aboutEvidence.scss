@@ -1,3 +1,4 @@
+
 .about-evidence .section-title{
     color: $primarytextColor;
 
@@ -37,7 +38,9 @@
 }
 
 .numbers-list .list-item{
-    @media screen and (min-width:$mobile) {
+    position: relative;
+
+    @media screen and (min-width:$tablet) {
         display: flex;
         justify-content: center;
     }
@@ -49,7 +52,45 @@
     
 }
 
+.evidence-svg{
+    position: absolute;
+    @media screen  and (max-width: 1235px){
+        display: none;
+    }
+}
+
+.syringe{
+    top: 0;
+    left: 28.46;
+}
+
+.heart{
+    top: 140;
+    left: 0;
+}
+
+.tablet{
+    top: 0;
+    right: 107.54;
+}
+
+.vaccination-heart{
+    top: 155.4;
+    right: 0;
+}
+
+.drip{
+    top: 120.76;
+    left: 0;
+}
+
+.stethoscope{
+    top: 23.79;
+    right: 0;
+}
+
 .numbers-list .list-item{
+    
     @media screen and (min-width:$tablet) {
         width: 620px;
     }
@@ -57,6 +98,8 @@
 
 .quantity{
     font-family: $secondaryFonts;
+
+    z-index: 1;
 
     @media screen and (min-width:$mobile) {
         font-size: 64px;
@@ -134,6 +177,8 @@
 .description-quantities{
     color:$primarytextColor;
     font-family: $secondaryFonts;
+
+    z-index: 1;
     
     @media screen  and (min-width: $mobile){
         font-size: 16px;
