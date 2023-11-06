@@ -12,9 +12,35 @@
 }
 
 .burger-menu{
+
     @media screen and (max-width: 1365px) {
         display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 13px 20px 46px 20px;
+        background-color: white;
     }
+
+    @media screen and (min-width: $tablet) {
+        margin-left: auto;
+    }
+
+    .is-open{
+        display: flex;
+    }
+}
+
+.burger-button.is-open .btn-close{
+    display: block;
+}
+
+.burger-button.is-open .btn-open{
+    display: none;
+}
+
+.btn-close{
+    display: none;
 }
 
 .burger-button,
@@ -26,7 +52,8 @@
 
 .burger-button,
 .search,
-.login-language button{
+.login-language button,
+.vhid-v-kabinet-btn{
     border: none;
     background-color: transparent;
 }
@@ -42,8 +69,16 @@ svg{
 
 nav{
     @media screen and (min-width: $tablet) {
-        // display: flex;
+        display: flex;
     }
+}
+
+.flex-nav{
+    @media screen and  (min-width: $tablet) {
+        display: flex;
+        align-items: center;
+    }
+        
 }
 
 .login-language{
@@ -85,6 +120,11 @@ nav{
 
     }
 
+    button:hover,
+    button:focus{
+        color: $primarytextColor;
+    }
+
     .eng{
         color: #D0E1F1;
         font-family: $secondaryFonts;
@@ -97,7 +137,14 @@ nav{
 }
 
 .nav-list{
-    margin-bottom: 80px;
+    @media screen and (max-width: 1365px) {
+        margin-bottom: 80px;
+    }
+
+    @media screen and (min-width: $tablet) {
+        display: flex;
+
+    }
 }
 
 .nav-item{
@@ -109,15 +156,36 @@ nav{
     }
 }
 
+.nav-item a:hover,
+.nav-item a:focus{
+    color: $primarytextColor;
+}
+
 .nav-item:not(:last-child){
     margin-bottom: 8px;
+
+    @media screen and (min-width: $tablet) {
+        margin-right: 32px;
+    }
+}
+
+.login-icon{
+    margin-left: 64px;
+
+    @media screen and (max-width: 1365px) {
+        display: none;
+    }
 }
 
 .address{
     margin-bottom: 16px;
+    padding-left: 51px;
+    position: relative;
 
     .item::before{
         content: '';
+        position: absolute;
+        left: 0;
         display: inline-block;
         background-repeat: no-repeat;
         background-position: center;
@@ -142,6 +210,7 @@ nav{
         font-size: 16px;
         font-weight: 700;
         line-height: 18px;
+        margin-bottom: 8px;
     }
 
     address{
@@ -149,6 +218,10 @@ nav{
         font-family: $secondaryFonts;
         font-size: 16px;
         line-height: 22px;
+    }
+
+    @media screen and (min-width: $tablet) {
+        display: none;
     }
 }
 
@@ -159,5 +232,9 @@ nav{
 
     .item:not(:first-child){
         margin-left: 36px;
+    }
+
+    @media screen and (min-width: $tablet) {
+        display: none;
     }
 }
