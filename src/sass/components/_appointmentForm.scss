@@ -537,6 +537,9 @@ body {
         padding: 16px;
         width: 400px;
         border: solid 0.781px #72B7F2;
+        .enter-number::placeholder {
+            content: (EV-0);
+        }
     }
     @media screen and (min-width:1920px) {
         width: 400px;
@@ -544,6 +547,9 @@ body {
         padding-right: 16px;
         padding-top: 12px;
         padding-bottom: 12px;
+        .enter-number::placeholder {
+            content: (EV-0);
+        }
     }
 }
 
@@ -598,6 +604,9 @@ body {
         margin-bottom: 16px;
         width: 400px;
         border: 0.781px solid #2887D9;
+        .enter-number::placeholder {
+            content: (EV-0);
+        }
     }
     @media screen and (min-width:1920px) {
         margin-bottom: 24px;
@@ -605,6 +614,9 @@ body {
         padding-bottom: 12px;
         padding-right: 16px;
         padding-left: 16px;
+        .enter-number::placeholder {
+            content: (EV-0);
+        }
     }
 }
 
