@@ -114,8 +114,10 @@ margin-left: 25px;
 
 
 .img-div{
-width: 908px;
+
+ width: 908px;
 height: 853px;
+
 }
 
 .img-list{
@@ -130,7 +132,44 @@ height: 853px;
 
 
 .fotka{
+position: absolute;
+top: 62px;
+right: 418px;
+
+
+}
+.fotka-1{
+    position: absolute;
+    top: 0;
+    right: 413px;
+
+    width:  208px;
+}
 
 
 
+.fotka-2{
+    position: absolute;
+    top: 40px;
+    right: 88px;
+
+    width:  266px;
+}
+
+.fotka-3{
+    position: absolute;
+    bottom: 31px;
+    right: 710px;
+
+    width:  250px;
+
+
+}
+
+.fotka-4{
+    position: absolute;
+ 
+    right: 88px;
+
+    width:   391px;
 }
