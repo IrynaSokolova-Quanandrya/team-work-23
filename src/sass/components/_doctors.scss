@@ -6,7 +6,9 @@
 
 }
 
-
+.foto img{
+    position: absolute;
+}
 
 .tittle-dr{
 font-size: 48px;
@@ -101,9 +103,6 @@ font-size: 32px;
 
 .frame{
 display: block;
-margin-top: 150px;
-margin-bottom: 0px;
-margin-left: 35px;
 
 border: 1px solid #A4CEF5;
 padding: 14px;
@@ -127,7 +126,7 @@ margin-left: 25px;
 .fotka{
 position: absolute;
 top: 94px;
-right: 618px;
+right: 670px;
 
 
 }
@@ -153,7 +152,7 @@ right: 618px;
     position: absolute;
     bottom: 31px;
     right: 710px;
-
+    top: 560px ;
     width:  250px;
 
 
@@ -162,6 +161,7 @@ right: 618px;
 .fotka-4{
     position: absolute;
     right: 271px;
+    top: 342px;
     bottom: 80px;
 
     width:   391px;
