@@ -1,3 +1,15 @@
+.about-evidence{
+    @media screen and (min-width: $tablet) and (max-width: 1919px) {
+        padding-top: 40px;
+        padding-bottom: 57.29px;  
+    }
+
+    @media screen and (min-width: $desktop) {
+        padding-top: 100px;
+        padding-bottom: 50px;  
+    }
+}
+
 
 .about-evidence .section-title{
     color: $primarytextColor;
@@ -48,51 +60,105 @@
     @media screen and (min-width: $tablet) {
         width: calc(100% / 2);
     }
-    
+
+    @media screen and (min-width: $desktop) {
+        overflow: hidden;
+    }
     
 }
 
 .evidence-svg{
     position: absolute;
-    @media screen  and (max-width: 1235px){
+    @media screen  and (max-width: 1365px){
         display: none;
     }
 }
 
 .syringe{
+    @media screen and (min-width:$tablet) and (max-width: 1919px){
     top: 0;
     left: 28.46;
+    }
+
+    @media screen and (min-width:$desktop){
+        bottom: 276;
+        left: 40;
+    }
 }
 
 .heart{
+    @media screen and (min-width:$tablet) and (max-width: 1919px){
     top: 140;
     left: 0;
+    }
+
+    @media screen and (min-width:$desktop){
+        bottom: 39.66;
+        right: 686.14;
+    }
 }
 
 .tablet{
+    @media screen and (min-width:$tablet) and (max-width: 1919px){
     top: 0;
     right: 107.54;
+    }
+
+    @media screen and (min-width:$desktop){
+        bottom: 349.2;
+        right: 126;
+    }
 }
 
 .vaccination-heart{
+    @media screen and (min-width:$tablet) and (max-width: 1919px){
     top: 155.4;
     right: 0;
+    }
+    
+    @media screen and (min-width:$desktop){
+        top: 113;
+        left: 780;
+    }
 }
 
 .drip{
+    @media screen and (min-width:$tablet) and (max-width: 1919px){
     top: 120.76;
     left: 0;
+    }
+
+    @media screen and (min-width:$desktop){
+        top: 154;
+        right: 780.6;
+    }
 }
 
 .stethoscope{
-    top: 23.79;
-    right: 0;
+    @media screen and (min-width:$tablet) and (max-width: 1919px){
+        top: 23.79;
+        right: 0;
+    }  
+
+    @media screen and (min-width:$desktop){
+        top: 27;
+        left: 720;
+    }
 }
 
 .numbers-list .list-item{
     
-    @media screen and (min-width:$tablet) {
+    @media screen and (min-width:$tablet) and (max-width: 1919px){
         width: 620px;
+    }
+
+    @media screen and (min-width:$desktop){
+        width: 874px;
+    }
+
+    @media screen and (min-width: $desktop){
+        padding-top:70px;
+        padding-bottom: 75px ;
     }
 }
 
@@ -112,7 +178,6 @@
     }
 
     @media screen and (min-width: $desktop) {
-
         font-size: 160px;
         font-weight: 300;
 
@@ -150,10 +215,6 @@
     @media screen and (max-width:1365px) {
         width: 128px;
     }
-
-    @media screen and (max-width:1365px) {
-        margin-left: 36px;
-    }
     
     @media screen and (max-width: $tablet) {
         width: 292px;
@@ -166,13 +227,6 @@
     color: #FACF4F;
 }
 
-
-.years{
-        
-    @media screen and (max-width: 1365px) {
-        margin-left: 88px;
-    }
-}
 
 .description-quantities{
     color:$primarytextColor;
