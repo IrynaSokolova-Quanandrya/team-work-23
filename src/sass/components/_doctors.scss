@@ -1,6 +1,12 @@
-.hero-dr{
+.doctors-hero{
     position: relative;
+
+    padding-top: 200px;
+    padding-bottom: 224px;
+
 }
+
+
 
 .tittle-dr{
 font-size: 48px;
@@ -113,45 +119,32 @@ margin-left: 25px;
 }
 
 
-.img-div{
-
- width: 908px;
-height: 853px;
-
-}
-
 .img-list{
     display: flex;
-    position: absolute;
-    top: 0;
-    right: 0;
-
-    width: 908px;
-
 }
 
 
 .fotka{
 position: absolute;
-top: 62px;
-right: 418px;
+top: 94px;
+right: 618px;
 
 
 }
 .fotka-1{
     position: absolute;
-    top: 0;
-    right: 413px;
+    top: 32px;
+    right: 465px;
 
-    width:  208px;
+    width:  185px;
 }
 
 
 
 .fotka-2{
     position: absolute;
-    top: 40px;
-    right: 88px;
+    top: 72px;
+    right: 140px;
 
     width:  266px;
 }
@@ -168,8 +161,16 @@ right: 418px;
 
 .fotka-4{
     position: absolute;
- 
-    right: 88px;
+    right: 271px;
+    bottom: 80px;
 
     width:   391px;
+}
+
+.fotka-5{
+       position: absolute;
+       bottom: 0;
+       right: 0;
+   
+       width:   250px;
 }
