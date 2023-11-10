@@ -32,6 +32,17 @@ font-weight: 600;
 line-height: 44px;
 letter-spacing: 0em;
     color: #2887D9;
+
+
+    @media screen and (max-width:$mobile){
+    top: 0;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18px; 
+
+    }
+
+
     @media screen and (min-width:$tablet){
         line-height: 31.304px;
         font-size: 34.15px;
@@ -65,6 +76,13 @@ font-weight: 400;
 line-height: 44px;
 letter-spacing: 0em;
 
+@media screen and (max-width:$mobile){
+    font-size: 48.701px;
+    line-height: 22.321px; 
+    top: 210.84px;
+    right: 235.17px;
+}
+
 
 @media screen and (min-width:$tablet){
     font-size: 68.3px;
@@ -97,17 +115,23 @@ text-align: center;
 
 color: #2887D9;
 
-
+@media screen and (max-width:$mobile){
+    font-size: 16.234px;
+top: 250.07px;
+right: 190.17px;
+}
 
 @media screen and (min-width:$tablet){
     font-size: 22.767px;
     line-height: normal;
+
 }
 
 @media screen and (min-width:$desktop){
     font-size: 32px;
     line-height: 44px;
     padding-top: 25px;
+
     }
 
 }
@@ -120,12 +144,13 @@ color: #2887D9;
     font-weight: 400;
     line-height: 44px;
     letter-spacing: 0em;
+
     text-align: center;
-    margin-top: 10px;
     color: #2887D9;
     @media screen and (min-width:$tablet){
         font-size: 22.767px;
         font-style: normal;
+ 
     }
 
 
@@ -143,13 +168,27 @@ color: #2887D9;
     border: none;
 color:#FFFFFF;
 background: #72B7F2;
+gap: 8px;
+@media screen and (max-width:$mobile){
+    border-radius: 30px;
+    text-align: center;
+    top: 283px;
+    right: 25px;
+    width: 342px;
+    padding: 14px 143px;
 
 
+    color: var(--white-input, #FFF);
+font-size: 16px;
+font-weight: 700;
+line-height: 18px; 
+}
     @media screen and (min-width:$tablet){
-        width: 452px;
+        width: 475px;
         padding: 16px;
         font-size: 22.767px;
         border-radius: 35.573px;
+        
     }
 
 
@@ -200,6 +239,15 @@ margin-left: 25px;
 
 
 .fotka{
+@media screen and (max-width:$mobile){
+    width: 139.232px;
+    height: 139.232px;
+    flex-shrink: 0;
+top: 7.96px;
+right: 19.97px;
+
+}
+
 
     @media screen and (min-width: $tablet){
         top: 68px;
@@ -217,7 +265,9 @@ margin-left: 25px;
 
 }
 .fotka-1{
-
+    @media screen and (max-width:$mobile){
+        opacity: 0;
+    }
     @media screen and (min-width: $tablet){
         top: 20px;
         right: 323px; 
@@ -240,6 +290,15 @@ margin-left: 25px;
 
     width:  266px;
 
+
+    @media screen and (max-width:$mobile){
+        width: 112.675px;
+    height: 114.369px;
+    top: 63.65px;
+    right: 199.68px;
+    border-radius: 57.185px;
+    border: 0.847px solid #FCE296;
+    }    
     @media screen and (min-width: $tablet){
         top: 52px;
         right: 113px; 
@@ -255,7 +314,9 @@ margin-left: 25px;
 }
 }
 .fotka-3{
-
+    @media screen and (max-width:$mobile){
+        opacity: 0;
+    }
     @media screen and (min-width: $tablet){
         top: 380px;
         right: 432px; 
@@ -274,7 +335,9 @@ margin-left: 25px;
 }
 
 .fotka-4{
-
+    @media screen and (max-width:$mobile){
+        opacity: 0;
+    }
 
     @media screen and (min-width: $tablet){
         top: 240px;
@@ -301,7 +364,9 @@ margin-left: 25px;
    
        width:   250px;
 
-
+       @media screen and (max-width:$mobile){
+        opacity: 0;
+    }
 
 
        @media screen and (min-width: $tablet){
