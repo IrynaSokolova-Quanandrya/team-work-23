@@ -1,4 +1,16 @@
-h1{
+.doctors-hero{
+    position: relative;
+
+    padding-top: 200px;
+    padding-bottom: 224px;
+
+}
+
+.foto img{
+    position: absolute;
+}
+
+.tittle-dr{
 font-size: 48px;
 font-weight: 600;
 line-height: 44px;
@@ -9,22 +21,24 @@ width: 147px;
 height: 44px;
 top: 40px;
 left: 36px;
+margin-top: 20px;
+margin-left: 35px;
 color: #2887D9;
 
 }
 
-.item-list{
+.item-list-dr{
     display: flex;
     justify-content: space-between;
 }
 
-.list{
+.list-dr{
     display: block;
     margin-top: 50px;
-    margin-left: 25px;
+    margin-left: 5px;
 }
 
-.nomber {
+.nomber-p {
 color: #D1A4BC;
 
 font-size: 96px;
@@ -37,43 +51,61 @@ margin: 10px;
 
 }
 .old{
- width: 86px;
+font-size: 32px;
 color: #D1A4BC;
 text-align: center ;
 
 }
 
-.p{
+.p-doctor{
 
 font-size: 32px;
 font-weight: 400;
 line-height: 44px;
 letter-spacing: 0em;
 text-align: center;
+padding-top: 25px;
+
+
+color: #2887D9;
 
 }
 
-// button{
-// width: 668px;
-// height: 80px;
-// top: 316px;
-// left: 18px;
-// padding: 20px;
-// border-radius: 50px;
-// border: none;
-// color:#FFFFFF;
-// background: #72B7F2;
-// margin-left: 50px;
-// text-align: center;
 
 
-// }
+.p-doctor-2{
 
-.border{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 10px;
+    
+    
+    color: #2887D9;
+    
+    }
+
+.search-dr{
+width: 668px;
+height: 80px;
+top: 316px;
+left: 18px;
+padding: 20px;
+border-radius: 50px;
+border: none;
+color:#FFFFFF;
+background: #72B7F2;
+margin-left: 50px;
+text-align: center;
+font-size: 32px;
+
+}
+
+
+.frame{
 display: block;
-margin-top: 150px;
-margin-bottom: 0px;
-margin-left: 35px;
 
 border: 1px solid #A4CEF5;
 padding: 14px;
@@ -83,7 +115,65 @@ height: 396px;
 
 }
 
-.border h1{
+.border-box h1{
 margin-top: 20px;
 margin-left: 25px;
+}
+
+
+.img-list{
+    display: flex;
+}
+
+
+.fotka{
+position: absolute;
+top: 94px;
+right: 670px;
+
+
+}
+.fotka-1{
+    position: absolute;
+    top: 32px;
+    right: 465px;
+
+    width:  185px;
+}
+
+
+
+.fotka-2{
+    position: absolute;
+    top: 72px;
+    right: 140px;
+
+    width:  266px;
+}
+
+.fotka-3{
+    position: absolute;
+    bottom: 31px;
+    right: 710px;
+    top: 560px ;
+    width:  250px;
+
+
+}
+
+.fotka-4{
+    position: absolute;
+    right: 271px;
+    top: 342px;
+    bottom: 80px;
+
+    width:   391px;
+}
+
+.fotka-5{
+       position: absolute;
+       bottom: 0;
+       right: 0;
+   
+       width:   250px;
 }
