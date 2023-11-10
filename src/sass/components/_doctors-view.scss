@@ -1,0 +1,133 @@
+.doctor-view-section{
+padding-left: 101px;
+    padding-right: 94px;
+}
+
+.input-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.doctor-view-title{
+    color: var(--blue-dark-blue, #2887D9);
+        font-family: Open Sans;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+        margin: 0;
+}
+
+.search-doctor{
+    width: 783px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid #000;
+    background: #F7F7F8;
+}
+
+.arrow-container{
+    display: flex;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.search-text{
+    color: #2887D9;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
+
+.search-link-list{
+    display: flex;
+    gap: 32px;
+    margin-bottom: 57px;
+    padding: 0;
+}
+
+.search-link{
+    color:#2887D9;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-decoration: none;
+}
+
+.doctor-foto-list{
+    padding: 0;
+}
+
+.first-foto-list,
+.second-foto-list,
+.third-foto-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.first-foto-list,
+.second-foto-list{
+    padding-bottom: 67px;
+}
+
+.doctor-foto{
+    margin-right: auto;
+    margin-left: auto;
+    // image-set: url("")
+    // ;
+}
+
+.doctor-title{
+    display: inline;
+    color: #3A3B3D;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.doctor-title:hover,
+.doctor-title:focus{
+    color: #2887D9;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.doctor-text{
+    color: #3A3B3D;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.more-container{
+    margin-top: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-text{
+    margin-right: 14px;
+    margin-bottom: 0;
+    color: #2887D9;
+    font-family: Open Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+}
