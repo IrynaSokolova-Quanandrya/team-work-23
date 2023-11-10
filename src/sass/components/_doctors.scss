@@ -3,7 +3,23 @@
 
     padding-top: 200px;
     padding-bottom: 224px;
-
+   
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+      
+        @media screen and (min-width: $mobile) {
+          width: $mobile;
+        }
+        @media screen and (min-width: $tablet) {
+          width: $tablet;
+        }
+        @media screen and (min-width: $desktop) {
+          width: $desktop;
+        }
+      }
 }
 
 .foto img{
@@ -11,20 +27,23 @@
 }
 
 .tittle-dr{
-font-size: 48px;
+    font-size: 48px;
 font-weight: 600;
 line-height: 44px;
 letter-spacing: 0em;
+    color: #2887D9;
+    @media screen and (min-width:$tablet){
+        line-height: 31.304px;
+        font-size: 34.15px;
+        margin-top: 24px;
+        margin-left: 24px;
+    }
 
-
-width: 147px;
-height: 44px;
-top: 40px;
-left: 36px;
+@media screen and (min-width:$desktop){
 margin-top: 20px;
 margin-left: 35px;
-color: #2887D9;
 
+}
 }
 
 .item-list-dr{
@@ -41,13 +60,24 @@ color: #2887D9;
 .nomber-p {
 color: #D1A4BC;
 
-font-size: 96px;
+
 font-weight: 400;
 line-height: 44px;
 letter-spacing: 0em;
 
-margin: 10px;
 
+@media screen and (min-width:$tablet){
+    font-size: 68.3px;
+    line-height: 31.304px;
+    }
+ 
+
+   
+  
+@media screen and (min-width:$desktop){
+    margin: 10px;
+    font-size: 96px;
+    }
 
 }
 .old{
@@ -59,15 +89,26 @@ text-align: center ;
 
 .p-doctor{
 
-font-size: 32px;
-font-weight: 400;
-line-height: 44px;
+
 letter-spacing: 0em;
 text-align: center;
-padding-top: 25px;
+
 
 
 color: #2887D9;
+
+
+
+@media screen and (min-width:$tablet){
+    font-size: 22.767px;
+    line-height: normal;
+}
+
+@media screen and (min-width:$desktop){
+    font-size: 32px;
+    line-height: 44px;
+    padding-top: 25px;
+    }
 
 }
 
@@ -75,44 +116,76 @@ color: #2887D9;
 
 .p-doctor-2{
 
-    font-size: 32px;
+   
     font-weight: 400;
     line-height: 44px;
     letter-spacing: 0em;
     text-align: center;
     margin-top: 10px;
-    
-    
     color: #2887D9;
-    
+    @media screen and (min-width:$tablet){
+        font-size: 22.767px;
+        font-style: normal;
     }
 
+
+
+    @media screen and (min-width:$desktop){
+     font-size: 32px;
+     line-height: normal;
+    }
+}
+
 .search-dr{
-width: 668px;
-height: 80px;
-top: 316px;
-left: 18px;
-padding: 20px;
-border-radius: 50px;
-border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
 color:#FFFFFF;
 background: #72B7F2;
-margin-left: 50px;
-text-align: center;
+
+
+    @media screen and (min-width:$tablet){
+        width: 452px;
+        padding: 16px;
+        font-size: 22.767px;
+        border-radius: 35.573px;
+    }
+
+
+
+@media screen and (min-width:$desktop){
+    width: 668px;
+padding: 20px;
+border-radius: 50px;
+margin-left: 10px;
 font-size: 32px;
+}
+
 
 }
 
 
 .frame{
-display: block;
 
-border: 1px solid #A4CEF5;
+    @media screen and (min-width:$tablet) {
+        width:480px;
+        border: 1px solid #A4CEF5;
+        border-radius:50px ;
+        height: 240px;
+    }
+ 
+
+
+
+@media screen and (min-width:$desktop) {
+    display: block;
+    border: 1px solid #A4CEF5;
 padding: 14px;
 border-radius:50px ;
 width:671px;
 height: 396px;
-
+}
 }
 
 .border-box h1{
@@ -127,53 +200,122 @@ margin-left: 25px;
 
 
 .fotka{
-position: absolute;
-top: 94px;
-right: 670px;
+
+    @media screen and (min-width: $tablet){
+        top: 68px;
+        right: 487px; 
+        width: 180px;
+        
+    }
+
+@media screen and (min-width: $desktop){
+    top: 94px;
+    right: 670px; 
+    width: 270px;
+}
 
 
 }
 .fotka-1{
-    position: absolute;
+
+    @media screen and (min-width: $tablet){
+        top: 20px;
+        right: 323px; 
+        width: 120px;
+    }
+
+@media screen and (min-width: $desktop){
     top: 32px;
     right: 465px;
-
-    width:  185px;
+    width:  166px;
+}
 }
 
 
 
 .fotka-2{
-    position: absolute;
+
     top: 72px;
     right: 140px;
 
     width:  266px;
-}
 
+    @media screen and (min-width: $tablet){
+        top: 52px;
+        right: 113px; 
+        width: 180px;
+    }
+
+@media screen and (min-width: $desktop){
+    top: 72px;
+    right: 140px;
+
+    width:  266px;
+
+}
+}
 .fotka-3{
-    position: absolute;
-    bottom: 31px;
+
+    @media screen and (min-width: $tablet){
+        top: 380px;
+        right: 432px; 
+     width: 180px;
+        
+    }
+
+@media screen and (min-width: $desktop){
+   
     right: 710px;
     top: 560px ;
     width:  250px;
 
+}
 
 }
 
 .fotka-4{
-    position: absolute;
+
+
+    @media screen and (min-width: $tablet){
+        top: 240px;
+        right: 175px; 
+     width: 380px;
+        
+    }
+
+@media screen and (min-width: $desktop){
+   
     right: 271px;
     top: 342px;
     bottom: 80px;
 
     width:   391px;
+
+}
 }
 
 .fotka-5{
-       position: absolute;
+
        bottom: 0;
        right: 0;
    
        width:   250px;
+
+
+
+
+       @media screen and (min-width: $tablet){
+       opacity: 0;
+        
+    }
+
+@media screen and (min-width: $desktop){
+   
+    bottom: 0;
+    right: 0;
+
+    width:   250px;
+
+
+}
 }
