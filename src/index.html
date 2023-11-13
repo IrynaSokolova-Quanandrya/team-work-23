@@ -13,111 +13,7 @@
   </head>
   <body>
 
-    <header class="header section">
-      <div class="container">
-          <div class="flex-nav">
-            <div class="logo-div">
-              <button class="burger-button" type="button" data-menu-button>
-                <svg width="24px" height="24px">
-                  <use href="./images/header/symbol-defs.svg#icon-burger_menu" class="btn-open"></use>
-                  <use href="./images/header/symbol-defs.svg#icon-close" class="btn-close"></use>
-                </svg>
-              </button>
-    
-              <a class="logo" href="./">
-                <img src="./images/header/logo.png" alt="logo">
-              </a>
-    
-              <button class="search" type="button">
-                <svg width="24px" height="24px">
-                  <use href="./images/header/symbol-defs.svg#icon-search"></use>
-                </svg>
-              </button>
-            </div>
-    
-            <div class="burger-menu" data-menu>
-                <nav>
-                  <ul class="login-language">
-                    <li class="item">
-                      <button type="button" class="cabinet">Увійти</button>
-                    </li>
-                    <li class="item">
-                      <button type="button" class="global">Укр / <span class="eng">Eng</span></button>
-                    </li>
-                  </ul>
-          
-          
-                  <ul class="nav-list">
-                      <li class="nav-item">
-                          <a href="./">Про нас</a>
-                      </li>
-                      <li class="nav-item">
-                          <a href="">Лікарі</a>
-                      </li>
-                      <li class="nav-item">
-                          <a href="">Вартість</a>
-                      </li>
-                      <li class="nav-item">
-                          <a href="">Запитання</a>
-                      </li>
-                      <li class="nav-item">
-                          <a href="">Відгуки</a>
-                      </li>
-                      <li class="nav-item">
-                          <a href="">Контакти</a>
-                      </li>
-                  </ul>
-
-                  <button class="vhid-v-kabinet-btn" type="button">
-                    <svg class="login-icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
-                      <path d="M25.6947 27.446C25.6947 22.6276 20.9012 18.7306 14.9997 18.7306C9.09814 18.7306 4.30469 22.6276 4.30469 27.446M14.9997 14.9954C16.6507 14.9954 18.2341 14.3396 19.4016 13.1721C20.5691 12.0046 21.2249 10.4212 21.2249 8.77018C21.2249 7.11914 20.5691 5.53572 19.4016 4.36826C18.2341 3.2008 16.6507 2.54492 14.9997 2.54492C13.3486 2.54492 11.7652 3.2008 10.5978 4.36826C9.4303 5.53572 8.77442 7.11914 8.77442 8.77018C8.77442 10.4212 9.4303 12.0046 10.5978 13.1721C11.7652 14.3396 13.3486 14.9954 14.9997 14.9954V14.9954Z" stroke="#2887D9" stroke-width="1.06719" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                  </button>
-              </nav>
-  
-  
-              <ul class="address">
-                <li class="item map">
-                  <p>Адреса:</p>
-                  <address>м.Львів, проспект Відродження, 121</address>
-                </li>
-                <li class="item sms">
-                  <p>Email:</p>
-                  <address>evidence.ua@gmail.com</address>
-                </li>
-                <li class="item callcalling">
-                  <p>Телефон:</p>
-                  <address>(800) 000 00 00</address>
-                </li>
-              </ul>
-  
-              <ul class="social-networks">
-                <li class="item">
-                  <a href="">
-                    <svg width="28px" height="28px">
-                      <use href="./images/header/symbol-defs.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="item">
-                  <a href="">
-                    <svg width="28px" height="28px">
-                      <use href="./images/header/symbol-defs.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="item">
-                  <a href="">
-                    <svg width="28px" height="28px">
-                      <use href="./images/header/symbol-defs.svg#icon-google"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-              </div>
-          </div>
-      </div>
-  </header>
+    <include src="./partials/header.html"></include>
     <include src="./partials/hero.html"></include>
     <include src="./partials/abautEvidence.html"></include>
     <include src="./partials/doctors.html"></include>
@@ -128,7 +24,7 @@
     <include src="./partials/footer.html"></include>
     <include src="./partials/doctors-view.html"></include>
     <include src="./partials/find-doctor.html"></include>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+   
     <script src="./index.js" type="module"></script>
     <script src="./menu.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
