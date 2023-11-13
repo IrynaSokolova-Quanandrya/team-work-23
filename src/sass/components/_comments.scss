@@ -1,0 +1,25 @@
+.what-say-our-clients{
+    background-color: #72B7F2;
+}
+.title-WSOC{
+    color: var(--blue-dark-blue, #2887D9);
+    font-family: Open Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px; /* 91.667% */
+    width: 639px;
+    margin-left: 100px;
+}
+.container-comment{
+    display: flex;
+    justify-content: space-around ;
+}
+.text-comment{
+    color: var(--gray-maintext, #3A3B3D);
+    font-family: Open Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
