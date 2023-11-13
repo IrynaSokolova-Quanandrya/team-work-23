@@ -31,24 +31,26 @@
     border-radius: 186px 186px 0 0;
 }
 
-.find-doctor-form input{
+.find-doctor-form  input{
     border: 1px solid  #9C9696;
     border-radius: 50px;
     
     padding: 12px 16px;
 }
 
-.find-doctor-form input:focus{
+.find-doctor-form:focus-within  input{
     border: 1px solid #72B7F2;
 }
 
-.find-doctor-form input:not(:last-child){
+.find-doctor-form  input:not(:last-child){
     margin-bottom: 16px;
 }
 
 .connection-container{
     display: flex;
     flex-direction: column;
+
+    margin-bottom: 20px;
 }
 
 .connection-container p{
@@ -59,4 +61,57 @@
     
     margin-bottom: 13px;
 }
+
+.find-doctor-button{
+    color: #fff;
+    background-color:$buttonColor;
+    
+    text-align: center;
+    font-size: 16px;
+
+    font-weight: 700;
+    line-height: 18px;
+
+    border-radius: 50px;
+    border: none;
+
+    padding: 14px 104px;
+
+    @media screen and(min-width: $tablet){
+        border-radius: 40px;
+
+
+        text-align: center;
+        font-family: $secondaryFonts;
+        font-size: 14.229px;
+        font-weight: 600;
+        line-height: 17.075px; 
+
+        padding: 12px 168px;
+    }
+
+    @media screen and(min-width: $desktop){
+        border-radius: 50px;
+
+        font-family: $secondaryFonts;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+    
+}
+
+.button-call{
+    @media screen and(min-width: $tablet){
+        display: none;
+    }
+}
+
+
+.button-send{
+    @media screen and(max-width: 1365px) {
+    display: none;
+    }
+}
+
 
