@@ -1,5 +1,5 @@
 .what-say-our-clients{
-    background-color: #72B7F2;
+    background-color: blue/online;
 }
 .title-WSOC{
     color: var(--blue-dark-blue, #2887D9);
@@ -8,11 +8,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: 44px; /* 91.667% */
-    width: 639px;
-    margin-left: 100px;
-}
-.container-comment{
-    display: flex;
+    margin-left: 85px;
 }
 .text-comment{
     color: var(--gray-maintext, #3A3B3D);
@@ -21,4 +17,35 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.fon{
+    width: 743px;
+    height: 731px;
+}
+.container-comment{
+  display: flex;
+}
+.comment-1{
+    display: inline-flex;
+    width: 630px;
+    height: 340px;
+    padding: 38px 39px 38px 80px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 1px solid var(--blue-blue, #72B7F2);
+    background: #F2F3F5;
+}
+.comment-2{
+    display: inline-flex;
+    width: 630px;
+    height: 340px;
+    padding: 38px 39px 38px 80px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 1px solid var(--blue-blue, #72B7F2);
+    background: #F2F3F5;
 }
