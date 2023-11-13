@@ -34,12 +34,15 @@ letter-spacing: 0em;
     color: #2887D9;
 
 
-    @media screen and (max-width:$mobile){
-    top: 0;
+    @media screen and (min-width:$mobile){
+        position: absolute;
+         top: 0;
+         padding-top: 23px;
+         padding-left: 24px;
         font-size: 16px;
         font-weight: 700;
         line-height: 18px; 
-
+width: 54px;
     }
 
 
@@ -63,6 +66,12 @@ margin-left: 35px;
 }
 
 .list-dr{
+
+    @media screen and (min-width:$mobile){
+
+        padding-right: 34px;
+    }
+
     display: block;
     margin-top: 50px;
     margin-left: 5px;
@@ -76,7 +85,7 @@ font-weight: 400;
 line-height: 44px;
 letter-spacing: 0em;
 
-@media screen and (max-width:$mobile){
+@media screen and (min-width:$mobile){
     font-size: 48.701px;
     line-height: 22.321px; 
     top: 210.84px;
@@ -106,19 +115,15 @@ text-align: center ;
 }
 
 .p-doctor{
-
-
 letter-spacing: 0em;
 text-align: center;
-
-
-
 color: #2887D9;
 
-@media screen and (max-width:$mobile){
+@media screen and (min-width:$mobile){
     font-size: 16.234px;
 top: 250.07px;
 right: 190.17px;
+padding-top: 20px;
 }
 
 @media screen and (min-width:$tablet){
@@ -169,7 +174,7 @@ right: 190.17px;
 color:#FFFFFF;
 background: #72B7F2;
 gap: 8px;
-@media screen and (max-width:$mobile){
+@media screen and (min-width:$mobile){
     border-radius: 30px;
     text-align: center;
     top: 283px;
@@ -239,7 +244,7 @@ margin-left: 25px;
 
 
 .fotka{
-@media screen and (max-width:$mobile){
+@media screen and (min-width:$mobile){
     width: 139.232px;
     height: 139.232px;
     flex-shrink: 0;
@@ -265,7 +270,7 @@ right: 19.97px;
 
 }
 .fotka-1{
-    @media screen and (max-width:$mobile){
+    @media screen and (min-width:$mobile){
         opacity: 0;
     }
     @media screen and (min-width: $tablet){
@@ -291,7 +296,7 @@ right: 19.97px;
     width:  266px;
 
 
-    @media screen and (max-width:$mobile){
+    @media screen and (min-width:$mobile){
         width: 112.675px;
     height: 114.369px;
     top: 63.65px;
@@ -314,7 +319,7 @@ right: 19.97px;
 }
 }
 .fotka-3{
-    @media screen and (max-width:$mobile){
+    @media screen and (min-width:$mobile){
         opacity: 0;
     }
     @media screen and (min-width: $tablet){
@@ -335,7 +340,7 @@ right: 19.97px;
 }
 
 .fotka-4{
-    @media screen and (max-width:$mobile){
+    @media screen and (min-width:$mobile){
         opacity: 0;
     }
 
@@ -364,7 +369,7 @@ right: 19.97px;
    
        width:   250px;
 
-       @media screen and (max-width:$mobile){
+       @media screen and (min-width:$mobile){
         opacity: 0;
     }
 
