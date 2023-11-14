@@ -4,6 +4,11 @@
     padding-top: 200px;
     padding-bottom: 224px;
    
+.hero-dr{
+    position: relative;
+}
+
+
     .container{
         padding-left: 15px;
         padding-right: 15px;
@@ -35,14 +40,11 @@ letter-spacing: 0em;
 
 
     @media screen and (min-width:$mobile){
-        position: absolute;
-         top: 0;
          padding-top: 23px;
          padding-left: 24px;
         font-size: 16px;
         font-weight: 700;
         line-height: 18px; 
-width: 54px;
     }
 
 
@@ -56,7 +58,9 @@ width: 54px;
 @media screen and (min-width:$desktop){
 margin-top: 20px;
 margin-left: 35px;
-
+font-size: 48px;
+font-weight: 600;
+line-height: 44px;
 }
 }
 
@@ -71,7 +75,9 @@ margin-left: 35px;
 
         padding-right: 34px;
     }
-
+    @media screen and (min-width:$desktop){
+margin-top: 95px;
+    }
     display: block;
     margin-top: 50px;
     margin-left: 5px;
@@ -96,6 +102,7 @@ letter-spacing: 0em;
 @media screen and (min-width:$tablet){
     font-size: 68.3px;
     line-height: 31.304px;
+    margin-left: 8px;
     }
  
 
@@ -129,7 +136,7 @@ padding-top: 20px;
 @media screen and (min-width:$tablet){
     font-size: 22.767px;
     line-height: normal;
-
+    margin-left: 8px;
 }
 
 @media screen and (min-width:$desktop){
@@ -167,9 +174,6 @@ padding-top: 20px;
 }
 
 .search-dr{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border: none;
 color:#FFFFFF;
 background: #72B7F2;
@@ -177,8 +181,6 @@ gap: 8px;
 @media screen and (min-width:$mobile){
     border-radius: 30px;
     text-align: center;
-    top: 283px;
-    right: 25px;
     width: 342px;
     padding: 14px 143px;
 
@@ -190,6 +192,7 @@ line-height: 18px;
 }
     @media screen and (min-width:$tablet){
         width: 475px;
+        height: 56px;
         padding: 16px;
         font-size: 22.767px;
         border-radius: 35.573px;
@@ -201,6 +204,7 @@ line-height: 18px;
 @media screen and (min-width:$desktop){
     width: 668px;
 padding: 20px;
+height: 80px;
 border-radius: 50px;
 margin-left: 10px;
 font-size: 32px;
@@ -246,13 +250,10 @@ margin-left: 25px;
 .fotka{
 @media screen and (min-width:$mobile){
     width: 139.232px;
-    height: 139.232px;
-    flex-shrink: 0;
 top: 7.96px;
 right: 19.97px;
 
 }
-
 
     @media screen and (min-width: $tablet){
         top: 68px;
@@ -270,7 +271,7 @@ right: 19.97px;
 
 }
 .fotka-1{
-    @media screen and (min-width:$mobile){
+    @media screen and (max-width: 1365px){
         opacity: 0;
     }
     @media screen and (min-width: $tablet){
@@ -298,11 +299,10 @@ right: 19.97px;
 
     @media screen and (min-width:$mobile){
         width: 112.675px;
-    height: 114.369px;
     top: 63.65px;
     right: 199.68px;
     border-radius: 57.185px;
-    border: 0.847px solid #FCE296;
+
     }    
     @media screen and (min-width: $tablet){
         top: 52px;
@@ -319,12 +319,12 @@ right: 19.97px;
 }
 }
 .fotka-3{
-    @media screen and (min-width:$mobile){
+    @media screen and (max-width: 1365px){
         opacity: 0;
     }
     @media screen and (min-width: $tablet){
         top: 380px;
-        right: 432px; 
+        right: 582px; 
      width: 180px;
         
     }
@@ -340,7 +340,7 @@ right: 19.97px;
 }
 
 .fotka-4{
-    @media screen and (min-width:$mobile){
+    @media screen and (max-width: 1365px){
         opacity: 0;
     }
 
@@ -364,23 +364,12 @@ right: 19.97px;
 
 .fotka-5{
 
-       bottom: 0;
-       right: 0;
-   
-       width:   250px;
-
-       @media screen and (min-width:$mobile){
+       @media screen and (max-width: 1365px){
         opacity: 0;
     }
 
-
-       @media screen and (min-width: $tablet){
-       opacity: 0;
-        
-    }
-
 @media screen and (min-width: $desktop){
-   
+   position: absolute;
     bottom: 0;
     right: 0;
 
