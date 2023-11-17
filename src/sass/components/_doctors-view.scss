@@ -5,6 +5,7 @@ padding-left: 101px;
 
 .doctor-view-container{
     position: relative;
+    outline: 1px solid red;
 }
 
 .first-input-container{
@@ -180,9 +181,8 @@ padding-left: 101px;
 .first-foto-list,
 .second-foto-list,
 .third-foto-list{
-    display: flex;
     @media screen and (min-width: $tablet) {
-        flex-wrap: wrap;
+        display: flex;
         justify-content: space-between;
     }
 }
@@ -206,6 +206,20 @@ padding-left: 101px;
     @media screen and (max-width:1365px) {
         display: none;
     }
+}
+
+.first-foto-list{
+    @media screen and (min-width:$tablet) {
+       gap: 146px; 
+    }
+}
+
+.second-foto-list{
+    gap: 70px;
+}
+
+.third-foto-list{
+    gap: 90px;
 }
 
 .doctors-foto-items:not(:first-child){
@@ -334,8 +348,8 @@ padding-left: 101px;
 
 .phone {
     position: absolute; 
-    right: 0;
-    bottom: 0;
+    right: 10px;
+    bottom: 119px;
     padding: 0;
     width: 50px;
     height: 50px;
