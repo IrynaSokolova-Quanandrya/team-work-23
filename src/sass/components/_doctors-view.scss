@@ -3,74 +3,188 @@ padding-left: 101px;
     padding-right: 94px;
 }
 
-.input-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 32px;
+.doctor-view-container{
+    position: relative;
 }
 
-.doctor-view-title{
-    color: var(--blue-dark-blue, #2887D9);
-        font-family: Open Sans;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 44px;
-        margin: 0;
+.first-input-container{
+    display: flex;
+    margin-bottom: 32px;
+    margin-top: 50px;
+    padding: 0;
+    @media screen and (min-width: $tablet) {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    @media screen and (max-width:1365px) {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .search-doctor{
-    width: 783px;
+    display: inline-block;
+    color: #C8C8C8;
+    font-family: Open Sans; 
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
     height: 60px;
     padding: 10px 20px;
     border-radius: 50px;
     border: 1px solid #000;
     background: #F7F7F8;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 12.806px;
+        width: 550px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 18px;
+        width: 783px;
+    }
+
+    @media screen and (max-width: 1365px) {
+        font-size: 16px;
+        width: 342px;
+    }
 }
+
+.doctor-view-title{
+    color: var(--blue-dark-blue, #2887D9);
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+        margin: 0;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 28.458px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 40px;
+    }
+
+    @media screen and (max-width:1365px) {
+        font-size: 16px;
+        margin-right: auto;
+    }
+}
+
 
 .arrow-container{
     display: flex;
-    gap: 32px;
-    margin-bottom: 32px;
+
+    @media screen and (min-width: $tablet) {
+        gap: 22.767px;
+        margin-bottom: 16px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        gap: 32px;
+        margin-bottom: 32px;
+    }
+
+    @media screen and (max-width:1365px) {
+        display: none;
+    }
+}
+
+.main{
+    color: var(--gray-maintext, #3A3B3D);
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 14.229px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 20px;
+    }
+}
+
+.arrow{
+    @media screen and (min-width: $tablet) {
+        width: 20px;
+        height: 20px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        width: 24px;
+        height: 24px;
+    }
 }
 
 .search-text{
     color: #2887D9;
     font-family: Open Sans;
-    font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal
+    line-height: normal;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 14.229px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 20px;
+    } 
 }
 
 .search-link-list{
     display: flex;
-    gap: 32px;
     margin-bottom: 57px;
     padding: 0;
+
+    @media screen and (min-width: $tablet) {
+        gap: 22.767px;
+    }
+    
+    @media screen and (min-width: $desktop) {
+        gap: 32px;
+    }
+
+    @media screen and (max-width:1365px) {
+        display: none;
+    }
 }
 
 .search-link{
     color:#2887D9;
     font-family: Open Sans;
-    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
     text-decoration: none;
+    @media screen and (min-width: $tablet) {
+        font-size: 24px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 32px;
+    }
+
 }
 
 .doctor-foto-list{
     padding: 0;
+    margin: 0;
 }
 
 .first-foto-list,
 .second-foto-list,
 .third-foto-list{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    @media screen and (min-width: $tablet) {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 }
 
 .first-foto-list,
@@ -78,40 +192,95 @@ padding-left: 101px;
     padding-bottom: 67px;
 }
 
+.first-foto-list {
+    position: relative;
+    @media screen and (max-width:1365px) {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+}
+
+.second-foto-list,
+.third-foto-list {
+    @media screen and (max-width:1365px) {
+        display: none;
+    }
+}
+
+.doctors-foto-items:not(:first-child){
+    @media screen and (max-width:1365px) {
+        margin-top: 32px;
+    }
+}
+
 .doctor-foto{
     margin-right: auto;
     margin-left: auto;
-    // image-set: url("")
-    // ;
 }
 
 .doctor-title{
     display: inline;
     color: #3A3B3D;
     font-family: Open Sans;
-    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 17.075px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 24px;
+    }
+
+    @media screen and (max-width:1365px) {
+        font-size: 16px;
+        font-family: Montserrat;
+    }
 }
 
 .doctor-title:hover,
 .doctor-title:focus{
     color: #2887D9;
     font-family: Open Sans;
-    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 17.075px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 24px;
+    }
+
+    @media screen and (max-width:1365px) {
+        font-size: 16px;
+        font-family: Montserrat;
+    }
 }
 
 .doctor-text{
     color: #3A3B3D;
     font-family: Open Sans;
-    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    
+    @media screen and (min-width: $desktop) {
+        font-size: 24px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 24px;
+    }
+    
+    @media screen and (max-width:1365px) {
+        font-size: 16px;
+    }
 }
 
 .more-container{
@@ -119,6 +288,10 @@ padding-left: 101px;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width:1365px) {
+        margin-top: 29px;
+    }
 }
 
 .more-text{
@@ -126,8 +299,52 @@ padding-left: 101px;
     margin-bottom: 0;
     color: #2887D9;
     font-family: Open Sans;
-    font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: 44px;
+    @media screen and (min-width: $tablet) {
+        font-size: 22.767px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 32px;
+    }
+
+    @media screen and (max-width:1365px) {
+        font-size: 16px;
+    }
+}
+
+.more-png{
+    @media screen and (min-width: $tablet) {
+        width: 20px;
+        height: 20px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        width: 24px;
+        height: 24px;
+    }
+
+    @media screen and (max-width:1365px) {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.phone {
+    position: absolute; 
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #fff;
+    border: 1px solid #83A9C9;
+}
+
+.phone-svg{
+    width: 42px;
+    height: 42px;
 }
