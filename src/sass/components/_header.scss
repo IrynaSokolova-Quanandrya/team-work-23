@@ -1,19 +1,62 @@
-// .container{
-//     outline: solid 2px red
-// }
+
 
 .logo-div{
-    @media screen and (max-width: 1355px) {
-        padding-bottom: 13px;
+    @media screen and (max-width: 1365px) {
+        margin-bottom: 13px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
 }
 
+.header .container{
+    position: relative;
+}
+
+.burger-menu{
+
+    @media screen and (max-width: 1365px) {
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100%;
+        padding: 13px 20px 46px 20px;
+        background-color: white;
+    }
+
+    @media screen and (min-width: $tablet) {
+        margin-left: auto;
+    }
+
+    &.is-open{
+        display: block;
+    }
+}
+
+.burger-button.is-open .btn-close{
+    display: block;
+}
+
+.burger-button.is-open .btn-open{
+    display: none;
+}
+
+.btn-close{
+    display: none;
+}
+
+.burger-button,
+.search{
+    @media screen and (min-width: $tablet) {
+        display: none;
+    }
+}
+
 .burger-button,
 .search,
-.login-language button{
+.login-language button,
+.vhid-v-kabinet-btn{
     border: none;
     background-color: transparent;
 }
@@ -25,6 +68,20 @@
 
 svg{
     fill: transparent;
+}
+
+nav{
+    @media screen and (min-width: $tablet) {
+        display: flex;
+    }
+}
+
+.flex-nav{
+    @media screen and  (min-width: $tablet) {
+        display: flex;
+        align-items: center;
+    }
+        
 }
 
 .login-language{
@@ -63,6 +120,12 @@ svg{
         color: $secondaryTextColor;
         font-family: $secondaryFonts;
         font-size: 16px;
+
+    }
+
+    button:hover,
+    button:focus{
+        color: $primarytextColor;
     }
 
     .eng{
@@ -70,28 +133,62 @@ svg{
         font-family: $secondaryFonts;
         font-size: 16px;
     }
+
+    @media screen and (min-width: $tablet) {
+        display: none;
+    }
 }
 
 .nav-list{
-    margin-bottom: 80px;
+    @media screen and (max-width: 1365px) {
+        margin-bottom: 80px;
+    }
+
+    @media screen and (min-width: $tablet) {
+        display: flex;
+
+    }
 }
 
 .nav-item{
-    border-bottom: solid 1px #c2c8d6;
     font-family: $secondaryFonts;
-    font-size: 16px;
-    line-height: 44px;
+    @media screen and (max-width: 1365px) {
+        border-bottom: solid 1px #c2c8d6;
+        font-size: 16px;
+        line-height: 44px;
+    }
+}
+
+.nav-item a:hover,
+.nav-item a:focus{
+    color: $primarytextColor;
 }
 
 .nav-item:not(:last-child){
     margin-bottom: 8px;
+
+    @media screen and (min-width: $tablet) {
+        margin-right: 32px;
+    }
+}
+
+.login-icon{
+    margin-left: 64px;
+
+    @media screen and (max-width: 1365px) {
+        display: none;
+    }
 }
 
 .address{
     margin-bottom: 16px;
+    padding-left: 51px;
+    position: relative;
 
     .item::before{
         content: '';
+        position: absolute;
+        left: 0;
         display: inline-block;
         background-repeat: no-repeat;
         background-position: center;
@@ -100,14 +197,17 @@ svg{
     }
 
     .map::before{
+        top: 6px;
         background-image: url('../images/header/map.svg');
     }
 
     .sms::before{
+        top: 56px;
         background-image: url('../images/header/sms.svg');
     }
 
     .callcalling::before{
+        top: 110px;
         background-image: url('../images/header/callcalling.svg');
     }
 
@@ -116,6 +216,7 @@ svg{
         font-size: 16px;
         font-weight: 700;
         line-height: 18px;
+        margin-bottom: 8px;
     }
 
     address{
@@ -123,6 +224,10 @@ svg{
         font-family: $secondaryFonts;
         font-size: 16px;
         line-height: 22px;
+    }
+
+    @media screen and (min-width: $tablet) {
+        display: none;
     }
 }
 
@@ -133,5 +238,9 @@ svg{
 
     .item:not(:first-child){
         margin-left: 36px;
+    }
+
+    @media screen and (min-width: $tablet) {
+        display: none;
     }
 }
