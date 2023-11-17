@@ -1,0 +1,196 @@
+.find-doctor{
+    padding-top: 40px;
+    padding-bottom: 71px;
+
+    @media screen and (min-width: $tablet) {
+        border-top: 1px solid #72B7F2;
+    }
+}
+
+.find-doctor-container{
+    @media screen and(min-width: $tablet) {
+        display: flex;
+        
+    }
+
+}
+
+.find-doctor-form{
+    display: flex;
+    justify-content: center;
+
+    
+
+    @media screen and(max-width: 1365px) {
+        background-color: #D0E1F1;
+
+        flex-direction: column;
+
+        padding: 33px 0;
+    }
+
+    @media screen and(min-width: $tablet) {
+        flex-direction: column;
+        
+        margin-left: 160px;
+
+        
+    }
+
+}
+
+.find-doctor .section-title{
+    color: $primarytextColor;  
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px; 
+    text-align: center;
+
+    margin-bottom: 32px;
+
+    @media screen and(min-width: $tablet) {
+    font-family: $secondaryFonts;    
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 32px; 
+    }
+
+    @media screen and(min-width: $desktop) {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    }
+}
+
+.fd-img-container{
+
+    @media screen and(max-width: 1365px) {
+        overflow: hidden;
+          
+        height: 160px;
+
+        border-radius: 186px 186px 0 0;
+    }
+
+    
+}
+
+.find-doctor-form  input{
+    border: 1px solid  #9C9696;
+    border-radius: 50px;
+    
+    padding: 12px 16px;
+}
+
+.find-doctor-form input:focus{
+    border: 1px solid #72B7F2;
+}
+
+.find-doctor-form  input:not(:last-child){
+    margin-bottom: 16px;
+}
+
+.connection-container{
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+
+}
+
+.connection-container p{
+    color:$primarytextColor;
+    font-family: $secondaryFonts;
+    font-size: 16px;
+    line-height: 22px;
+    
+    margin-bottom: 13px;
+
+    @media screen and (min-width:$tablet) {
+        color:#3A3B3D;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+    @media screen and (min-width:$desktop) {
+        color:#3A3B3D;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+    }
+}
+
+.connection-input-container{
+    display: flex;
+    @media screen and (min-width: $mobile) {
+        flex-direction: column;
+    }
+
+    @media screen and (min-width: $tablet) {
+        flex-direction: row;
+    }
+    
+}
+
+.connection-input-container label:not(:first-child){
+
+    @media screen and (min-width: $tablet) {
+        margin-left: 12px;
+    }
+   
+}
+
+.find-doctor-button{
+    color: #fff;
+    background-color:$buttonColor;
+    
+    text-align: center;
+    font-size: 16px;
+
+    font-weight: 700;
+    line-height: 18px;
+
+    border-radius: 50px;
+    border: none;
+
+    padding: 14px 104px;
+
+    @media screen and(min-width: $tablet){
+        border-radius: 40px;
+
+
+        text-align: center;
+        font-family: $secondaryFonts;
+        font-size: 14.229px;
+        font-weight: 600;
+        line-height: 17.075px; 
+
+        padding: 12px 168px;
+    }
+
+    @media screen and(min-width: $desktop){
+        border-radius: 50px;
+
+        font-family: $secondaryFonts;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+    
+}
+
+.button-call{
+    @media screen and(min-width: $tablet){
+        display: none;
+    }
+}
+
+
+.button-send{
+    @media screen and(max-width: 1365px) {
+    display: none;
+    }
+}
+
+

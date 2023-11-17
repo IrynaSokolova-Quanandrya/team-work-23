@@ -37,6 +37,7 @@ img {
 }
 
 a {
+  color: $secondaryTextColor;
   text-decoration: none;
 }
 
@@ -53,4 +54,8 @@ a {
 
 li {
   list-style-type: none; 
+}
+
+input{
+  outline: none;
 }

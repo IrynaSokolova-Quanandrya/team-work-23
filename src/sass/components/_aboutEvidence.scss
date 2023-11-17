@@ -1,0 +1,295 @@
+.about-evidence{
+    @media screen and (min-width: $tablet) and (max-width: 1919px) {
+        padding-top: 40px;
+        padding-bottom: 57.29px;  
+    }
+
+    @media screen and (min-width: $desktop) {
+        padding-top: 100px;
+        padding-bottom: 50px;  
+    }
+}
+
+
+.about-evidence .section-title{
+    color: $primarytextColor;
+
+    @media screen and (min-width: $mobile){
+
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18px;
+
+        margin-bottom: 24px;
+    }
+
+    @media screen and (min-width: $tablet) {
+
+        font-size: 34.15px;
+        font-weight: 600;
+        line-height: 31.304px; 
+
+        margin-bottom: 48px;
+    }
+
+    @media screen and (min-width: $desktop) {
+
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 44px;
+
+        margin-bottom: 50px;
+    }
+}
+
+.numbers-list{
+    @media screen and (min-width:$tablet) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.numbers-list .list-item{
+    position: relative;
+
+    @media screen and (min-width:$tablet) {
+        display: flex;
+        justify-content: center;
+    }
+
+    @media screen and (min-width: $tablet) {
+        width: calc(100% / 2);
+    }
+
+    @media screen and (min-width: $desktop) {
+        overflow: hidden;
+    }
+    
+}
+
+.evidence-svg{
+    position: absolute;
+    @media screen  and (max-width: 1365px){
+        display: none;
+    }
+}
+
+.syringe{
+    @media screen and (min-width:$tablet) and (max-width: 1919px){
+    top: 0;
+    left: 28.46;
+    }
+
+    @media screen and (min-width:$desktop){
+        bottom: 276;
+        left: 40;
+    }
+}
+
+.heart{
+    @media screen and (min-width:$tablet) and (max-width: 1919px){
+    top: 140;
+    left: 0;
+    }
+
+    @media screen and (min-width:$desktop){
+        bottom: 39.66;
+        right: 686.14;
+    }
+}
+
+.tablet{
+    @media screen and (min-width:$tablet) and (max-width: 1919px){
+    top: 0;
+    right: 107.54;
+    }
+
+    @media screen and (min-width:$desktop){
+        bottom: 349.2;
+        right: 126;
+    }
+}
+
+.vaccination-heart{
+    @media screen and (min-width:$tablet) and (max-width: 1919px){
+    top: 155.4;
+    right: 0;
+    }
+    
+    @media screen and (min-width:$desktop){
+        top: 113;
+        left: 780;
+    }
+}
+
+.drip{
+    @media screen and (min-width:$tablet) and (max-width: 1919px){
+    top: 120.76;
+    left: 0;
+    }
+
+    @media screen and (min-width:$desktop){
+        top: 154;
+        right: 780.6;
+    }
+}
+
+.stethoscope{
+    @media screen and (min-width:$tablet) and (max-width: 1919px){
+        top: 23.79;
+        right: 0;
+    }  
+
+    @media screen and (min-width:$desktop){
+        top: 27;
+        left: 720;
+    }
+}
+
+.numbers-list .list-item{
+    
+    @media screen and (min-width:$tablet) and (max-width: 1919px){
+        width: 620px;
+    }
+
+    @media screen and (min-width:$desktop){
+        width: 874px;
+    }
+
+    @media screen and (min-width: $desktop){
+        padding-top:70px;
+        padding-bottom: 75px ;
+    }
+}
+
+.quantity{
+    font-family: $secondaryFonts;
+
+    z-index: 1;
+
+    @media screen and (min-width:$mobile) {
+        font-size: 64px;
+    }
+    
+    @media screen and (min-width: $tablet) {
+
+        font-size: 113.833px;
+        font-weight: 300;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 160px;
+        font-weight: 300;
+
+    }
+
+}
+
+.quantity-of-patients{
+    color: #EDBBD6;
+    
+}
+
+.patients{
+    @media screen and (max-width:1365px) {
+        margin-left: 8px;
+    }
+}
+
+.quantity-of-vaccination{
+    color: #AFD1F1;
+}
+
+.vaccination{
+    @media screen and (max-width:1365px) {
+        margin-left: 90px;
+    }
+}
+
+.quantity-of-research{
+    color: #9BE0DC;
+    
+}
+
+.research{
+    @media screen and (max-width:1365px) {
+        width: 128px;
+    }
+    
+    @media screen and (max-width: $tablet) {
+        width: 292px;
+    }
+
+    
+}
+
+.quantity-of-years{
+    color: #FACF4F;
+}
+
+
+.description-quantities{
+    color:$primarytextColor;
+    font-family: $secondaryFonts;
+
+    z-index: 1;
+    
+    @media screen  and (min-width: $mobile){
+        font-size: 16px;
+    }
+    
+    @media screen and (min-width: $tablet){
+        display: block;
+    }
+
+    @media screen and (min-width: $tablet){
+        font-size: 22.767px;
+    }
+
+    @media screen and (min-width: $desktop){
+        font-size: 32px;
+    }
+    
+
+    @media screen and (max-width:1365px) {
+        text-align: center;
+        align-self: flex-end;
+    }
+}
+
+.bgc-dark-vanilla{
+    background-color: #F3DFEA;
+
+    @media screen and (min-width: $tablet) and (max-width:1919px){
+        padding-top:49.09px;
+        padding-bottom: 44.91px ;
+    }
+    
+}
+
+.bgc-pale-aqua{
+    background-color: #D0E1F1;
+    @media screen and (min-width: $tablet) and (max-width:1919px){
+        padding-top: 54.07px;
+        padding-bottom:49.93px ;
+    }
+        
+}
+
+.bgc-light-cyan{
+    background-color: #CEF2F0 ;
+
+    @media screen and (min-width: $tablet) and (max-width:1919px){
+        padding-top: 54.07px;
+        padding-bottom:49.93px ;
+    }
+}
+
+.bgc-jasmine{
+    background-color:#FEDE7ECC;
+
+    @media screen and (min-width: $tablet) and (max-width:1919px){
+        padding-top: 56.94px;
+        padding-bottom: 49.93px ;
+    }
+}
