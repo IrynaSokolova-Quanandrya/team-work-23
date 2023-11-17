@@ -1,6 +1,16 @@
+.find-doctor{
+    padding-top: 40px;
+    padding-bottom: 71px;
+
+    @media screen and (min-width: $tablet) {
+        border-top: 1px solid #72B7F2;
+    }
+}
+
 .find-doctor-container{
     @media screen and(min-width: $tablet) {
         display: flex;
+        
     }
 
 }
@@ -23,6 +33,8 @@
         flex-direction: column;
         
         margin-left: 160px;
+
+        
     }
 
 }
@@ -54,13 +66,17 @@
 
     @media screen and(max-width: 1365px) {
         overflow: hidden;
-        
+          
         height: 160px;
 
         border-radius: 186px 186px 0 0;
     }
 
     
+}
+
+.fd-img-container img{
+    width: 808px;
 }
 
 .find-doctor-form  input{
@@ -110,6 +126,11 @@
 }
 
 .connection-input-container{
+    display: flex;
+    @media screen and (min-width: $mobile) {
+        flex-direction: column;
+    }
+
     @media screen and (min-width: $tablet) {
         flex-direction: row;
     }
@@ -117,7 +138,11 @@
 }
 
 .connection-input-container label:not(:first-child){
-    margin-left: 12px;
+
+    @media screen and (min-width: $tablet) {
+        margin-left: 12px;
+    }
+   
 }
 
 .find-doctor-button{
