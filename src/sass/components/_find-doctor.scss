@@ -8,7 +8,7 @@
 }
 
 .find-doctor-container{
-    @media screen and(min-width: $tablet) {
+    @media screen and (min-width: $tablet) {
         display: flex;
         
     }
@@ -21,7 +21,7 @@
 
     
 
-    @media screen and(max-width: 1365px) {
+    @media screen and (max-width: 1365px) {
         background-color: #D0E1F1;
 
         flex-direction: column;
@@ -29,7 +29,7 @@
         padding: 33px 0;
     }
 
-    @media screen and(min-width: $tablet) {
+    @media screen and (min-width: $tablet) {
         flex-direction: column;
         
         margin-left: 160px;
@@ -48,14 +48,14 @@
 
     margin-bottom: 32px;
 
-    @media screen and(min-width: $tablet) {
+    @media screen and (min-width: $tablet) {
     font-family: $secondaryFonts;    
     font-size: 30px;
     font-weight: 700;
     line-height: 32px; 
     }
 
-    @media screen and(min-width: $desktop) {
+    @media screen and (min-width: $desktop) {
     font-size: 40px;
     font-weight: 700;
     line-height: 44px;
@@ -64,7 +64,7 @@
 
 .fd-img-container{
 
-    @media screen and(max-width: 1365px) {
+    @media screen and (max-width: 1365px) {
         overflow: hidden;
           
         height: 160px;
@@ -156,7 +156,7 @@
 
     padding: 14px 104px;
 
-    @media screen and(min-width: $tablet){
+    @media screen and (min-width: $tablet){
         border-radius: 40px;
 
 
@@ -169,7 +169,7 @@
         padding: 12px 168px;
     }
 
-    @media screen and(min-width: $desktop){
+    @media screen and (min-width: $desktop){
         border-radius: 50px;
 
         font-family: $secondaryFonts;
@@ -181,14 +181,14 @@
 }
 
 .button-call{
-    @media screen and(min-width: $tablet){
+    @media screen and (min-width: $tablet){
         display: none;
     }
 }
 
 
 .button-send{
-    @media screen and(max-width: 1365px) {
+    @media screen and (max-width: 1365px) {
     display: none;
     }
 }
