@@ -1,0 +1,92 @@
+:root {
+    --primary-color: #2887D9;
+    --secondary-color: #D0E1F1;
+    --background-color: #ECEFF7;
+    --text-color: #3A3B3D;
+}
+
+.modal {
+    background-color: var(--secondary-color);
+    width: auto;
+    height: auto;
+}
+
+button {
+    border: none;
+    background-color: white;
+    width: 30px;
+    height: 24px;
+}
+
+.exit {
+    background-image: url(/image/exit.svg);
+    width: 25px;
+    height: 20px;
+}
+
+.container {
+    // display: flex;
+    border: solid var(--primary-color) 1px;
+    border-radius: 50px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+}
+
+ul {
+    width: 100%;
+}
+
+.exeption {
+    background-color: var(--secondary-color);
+}
+
+.exeption p {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--primary-color);
+}
+
+.li:not(1) {
+    width: auto;
+    padding-bottom: 15px var(--background-color);
+}
+
+.li:not(1) svg {
+    position: relative;
+    right: 5px;
+}
+
+.arrow {
+    background-image: url(/image/arrow.svg);
+    width: 32px;
+    height: 32px;
+}
+
+.illness {
+    color: var(--text-color);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.expence {
+    color: var(--primary-color);
+    font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+
+}
