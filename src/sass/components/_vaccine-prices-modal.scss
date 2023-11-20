@@ -1,16 +1,14 @@
 .modal {
+    padding: 50px;
     background-color:#ECEFF7;
-    width: 1303px;
-    height: 1048px;
-    
-    // width: auto;
-    // height: auto;
+    width: fit-content;
+    height: fit-content;
 }
 
 .exit-button {
     position: relative;
     top: 0;
-    left: 97.85%;
+    left: 100%;
     padding: 0;
     border: none;
     background-color: #ECEFF7;
@@ -27,6 +25,7 @@ button {
 }
 
 .exit {
+    background-repeat: no-repeat;
     background-image: url(/src/images/vaccine-prices-modal/exit.svg);
     width: 29px;
     height: 22px;
@@ -44,10 +43,6 @@ h2 {
     display: flex;
     justify-content: center;
     color: #2887D9;
-}
-
-div {
-    width: auto;
 }
 
 .exeption {
@@ -94,12 +89,15 @@ min-height: 60px;
 padding-top: 4px;
 padding-left: 24px;
 padding-right: 24px;
-border-bottom: solid white 14px;
 line-height: 24px;
-// gap: 56px;
     display: block;
     width: fit-content;
     height: fit-content;
+}
+
+li:not(:first-child):not(:last-child) {
+    
+border-bottom: solid white 14px;
 }
 
 li:not(:first-child) svg {
@@ -138,4 +136,24 @@ line-height: 44px;
 letter-spacing: 0em;
 text-align: left;
 margin: 0;
+}
+
+.expences.a {
+    position: relative;
+    left: 170;
+}
+
+.expences.b {
+    left: 345;
+    position: relative;
+}
+
+.expences.c {
+    position: relative;
+    left: 230;
+}
+
+.expences.d {
+    position: relative;
+    left: 205;
 }
