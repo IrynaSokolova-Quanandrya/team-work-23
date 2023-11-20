@@ -1,92 +1,141 @@
-:root {
-    --primary-color: #2887D9;
-    --secondary-color: #D0E1F1;
-    --background-color: #ECEFF7;
-    --text-color: #3A3B3D;
+.modal {
+    background-color:#ECEFF7;
+    width: 1303px;
+    height: 1048px;
+    
+    // width: auto;
+    // height: auto;
 }
 
-.modal {
-    background-color: var(--secondary-color);
-    width: auto;
-    height: auto;
+.exit-button {
+    position: relative;
+    top: 0;
+    left: 97.85%;
+    padding: 0;
+    border: none;
+    background-color: #ECEFF7;
+    width: 30px;
+    height: 24px;
 }
 
 button {
+    padding: 0;
     border: none;
-    background-color: white;
+    background-color: #ECEFF7;
     width: 30px;
     height: 24px;
 }
 
 .exit {
-    background-image: url(/image/exit.svg);
-    width: 25px;
-    height: 20px;
+    background-image: url(/src/images/vaccine-prices-modal/exit.svg);
+    width: 29px;
+    height: 22px;
 }
 
 .container {
-    // display: flex;
-    border: solid var(--primary-color) 1px;
+    width: 1189px;
+height: 910px;
+    border: solid #2887D9 1px;
     border-radius: 50px;
+    width: inherit;
 }
 
 h2 {
     display: flex;
     justify-content: center;
-    color: var(--primary-color);
+    color: #2887D9;
 }
 
-ul {
-    width: 100%;
+div {
+    width: auto;
 }
 
 .exeption {
-    background-color: var(--secondary-color);
+    
+    width: 1058px;
+height: 60px;
+    display: block;
+    background-color:#D0E1F1;
 }
 
 .exeption p {
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-size: 24px;
     font-weight: 600;
     line-height: 44px;
     letter-spacing: 0em;
     text-align: left;
-    color: var(--primary-color);
+    color: #2887D9;
+    display: inline;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: fit-content;
+    height: fit-content;
 }
 
-.li:not(1) {
-    width: auto;
-    padding-bottom: 15px var(--background-color);
+.exeption p:nth-child(1) {
+    position: relative;
+    left: 100;
 }
 
-.li:not(1) svg {
+.exeption p:nth-last-child(1) {
+    position: relative;
+    left: 650;
+}
+
+.exeption svg {
+    position: relative;
+    display: inline;
+}
+
+li:not(:first-child) {
+    min-width: 1010px;
+min-height: 60px;
+padding-top: 4px;
+padding-left: 24px;
+padding-right: 24px;
+border-bottom: solid white 14px;
+line-height: 24px;
+// gap: 56px;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+}
+
+li:not(:first-child) svg {
     position: relative;
     right: 5px;
+    top: 7px;
 }
 
 .arrow {
-    background-image: url(/image/arrow.svg);
+    background-image: url(/src/images/vaccine-prices-modal/arrow.svg);
     width: 32px;
     height: 32px;
 }
 
 .illness {
-    color: var(--text-color);
-    font-family: Open Sans;
+    display: inline;
+    color: #3A3B3D;
+    font-family: 'Open Sans';
     font-size: 24px;
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0em;
     text-align: left;
+    margin-left: 40;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.expence {
-    color: var(--primary-color);
-    font-family: Open Sans;
+.expences {
+    display: inline;
+    color: #2887D9;
+    font-family: 'Open Sans';
 font-size: 20px;
 font-weight: 700;
 line-height: 44px;
 letter-spacing: 0em;
 text-align: left;
-
+margin: 0;
 }
