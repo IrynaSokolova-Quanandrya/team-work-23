@@ -4,7 +4,7 @@
 
 .had{
     color: #2887D9;
-   margin-top: 285px;
+ 
         font-size: 140px;
         font-style: normal;
         font-weight: 300;
@@ -26,32 +26,42 @@
     border-radius: 50px;
         background: var(--blue-blue, #72B7F2);
         margin-bottom: 150px;
-        max-width: 596px;
+    width: 596px;
+    height: 80px;
+    border: 0;
+    color: #fff;
 }
 
 .liliputy{
     display: flex;
 justify-content:left;
 list-style: none;
+justify-content: space-around;
 }
-.hero-div{
-display: flex;
-
+.hero{
+    padding-top: 60px;
 }
 
 .hero-f{
+    
     border-bottom: 1px solid var(--blue-blue, #72B7F2);
     min-width: 1042px;
 }
 
 .forward{
-    width: 756px;
-        height: 888px;
-        right: 0;
-        top: 0;
-        position: absolute;
+
+ 
         
 }
 .liput{
-    text-align: center;
+margin-right: 138px;
+text-align: center;
 }
+.svg-hero{
+    width: 42px;
+    height: 42px;
+}
+.gh{
+    display: flex;
+}
+    
