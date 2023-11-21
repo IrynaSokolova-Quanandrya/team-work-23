@@ -1,0 +1,103 @@
+.service-section-title {
+    color: #2887D9;
+}
+
+.service-section {
+    width: 1920px;
+    height: 738px;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -54px;
+    margin-right: -92px;
+}
+
+.service-frame {
+    margin-bottom: 54px;
+    margin-right: 92px;
+    width: 270px;
+    height: 270px;
+    border-radius: 50px;
+    border: 1px solid #72B7F2;
+}
+
+.service-frame:not(:last-child) {
+    background-color: #72B7F2;
+}
+
+.service-frame:last-child {
+    background-color: #CEF2F0;
+}
+
+.service-frame:hover:not(:last-child),
+.service-frame:focus:not(:last-child) {
+    color: #F3DCDC;
+}
+
+.service-frame svg {
+    background-color: #72B7F2;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.service-frame svg:last-child {
+    background-color:#CEF2F0; 
+}
+
+.service-text {
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #2887D9;
+}
+
+.cardiologist {
+    fill: #2887D9;
+    background-image: src('./images/service/cardiologist');
+}
+
+.child {
+    fill: #2887D9;
+    background-image: src('./images/service/child');
+}
+
+.dentist {
+    fill: #2887D9;
+    background-image: src('./images/service/dentist');
+}
+
+.gastritis {
+    background-image: src('./images/service/gastritis');
+}
+
+.lab {
+    background-image: src('./images/service/lab');
+}
+
+.more {
+    background-image: src('./images/service/more');
+}
+
+.neurologist {
+    background-image: src('./images/service/neurologist');
+}
+
+.orthpaedist {
+    background-image: src('./images/service/orthpaedi');
+}
+
+.urologist {
+    background-image: src('./images/service/urologist');
+}
+
+.urologist {
+    background-image: src('./images/service/vaccination');
+}
