@@ -1,34 +1,144 @@
+// General
+
+
+
+.my-div {
+    padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: $tablet) {
+    width: $tablet;
+    height: 594px;
+  }
+  @media screen and (min-width: $desktop) {
+    width: $desktop;
+    height: 766px;
+  }
+}
+
+.cardiologist {
+    background-image: url('/src/images/service/cardiologist.svg');
+}
+
+.child {
+    background-image: url('/src/images/service/child.svg');
+}
+
+.dentist {
+    background-image: url('/src/images/service/dentist.svg');
+}
+
+.gastritis {
+    background-image: url('/src/images/service/gastritis.svg');
+}
+
+.lab {
+    background-image: url('/src/images/service/lab.svg');
+}
+
+.more {
+    background-image: url('/src/images/service/more.svg');
+}
+
+.neurologist {
+    background-image: url('/src/images/service/neurologist.svg');
+}
+
+// .orthpaedist {
+//     background-image: url('/src/images/service/orthpaedist.svg');
+// }
+
+// .urologist {
+//     background-image: url('/src/images/service/urologist.svg');
+// }
+
+.vaccination {
+    background-image: url('/src/images/service/vaccination.svg');
+}
+
+// Desktop
+
 .service-section-title {
     color: #2887D9;
+    font-family: Open Sans;
+
+    @media screen and (min-width: $tablet) {
+    margin-left: 40px ;
+    margin-bottom: 35px;
+    font-size: 34.15px;
+    font-weight: 600;
+    line-height: 31.304px; /* 91.667% */
+}
+    @media screen and (min-width: $desktop) {
+    margin-left: 100px ;
+    margin-bottom: 62px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 44px;
+}
 }
 
 .service-section {
+    @media screen and (min-width: $tablet) {
+    width: 1366px;
+    height: 526px;
+}
+    @media screen and (min-width: $desktop) {
     width: 1920px;
     height: 738px;
 }
+}
 
 .service-list {
+    padding: 0px;
+
+    
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     margin-bottom: -54px;
     margin-right: -92px;
+    @media screen and (min-width: $tablet) {
+    margin-left: 71.15px;
+    width: 1228px;
+    height: 438px;
+        }
+    @media screen and (min-width: $desktop) {
+    width: 1850px;
+    height: 594px;
+    margin-left: 100px;
+    }
+    
 }
 
 .service-frame {
-    margin-bottom: 54px;
-    margin-right: 92px;
-    width: 270px;
-    height: 270px;
-    border-radius: 50px;
-    border: 1px solid #72B7F2;
+
+        border: 1px solid #72B7F2;
+        border-radius: 50px;
+
+        @media screen and (min-width: $tablet) {
+    margin-bottom: 38px;
+    margin-right: 65.45px;
+    width: 180px;
+    height: 180px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        margin-bottom: 54px;
+        margin-right: 92px;
+        width: 270px;
+        height: 270px;
+}
 }
 
 .service-frame:not(:last-child) {
-    background-color: #72B7F2;
+    background-color: #CEF2F0;
 }
 
 .service-frame:last-child {
-    background-color: #CEF2F0;
+    background-color: #fff;
 }
 
 .service-frame:hover:not(:last-child),
@@ -37,72 +147,65 @@
 }
 
 .service-frame svg {
-    background-color: #72B7F2;
+    fill: #2887D9;
+    position: relative;
     background-repeat: no-repeat;
     width: 100px;
     height: 100px;
-    display: flex;
-    justify-content: center;
+
+    
+    @media screen and (min-width: $tablet) {
+        left: 49;
+        width: 71.146px;
+        height: 71.146px;
+            }
+        @media screen and (min-width: $desktop) {
+            left: 88;
+            width: 100px;
+            height: 100px;
+        }
 }
 
-.service-frame svg:last-child {
-    background-color:#CEF2F0; 
-}
+// .service-frame svg:not(:last-child) {
+//     background-color: #CEF2F0;
+// }
+
+// .service-frame svg:last-child {
+//     background-color: #fff;
+// }
 
 .service-frame a {
+    padding-top: 65px;
+    text-decoration: none;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+
+    @media screen and (min-width: $tablet) {
+        padding-top: 30px;
+            }
+        @media screen and (min-width: $desktop) {
+            padding-top: 65px;
+        }
 }
 
 .service-text {
     display: flex;
     justify-content: center;
     font-family: 'Open Sans';
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 44px;
-    color: #2887D9;
+    // color: #2887D9;
+    // font-size: 24px;
+    // font-weight: 400;
+    // line-height: 44px;
+    @media screen and (min-width: $tablet) {
+        font-size: 17.075px;
+        font-weight: 400;
+        line-height: 31.304px;
+            }
+        @media screen and (min-width: $desktop) {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 44px;
+        }
 }
 
-.cardiologist {
-    fill: #2887D9;
-    background-image: src('./images/service/cardiologist');
-}
-
-.child {
-    fill: #2887D9;
-    background-image: src('./images/service/child');
-}
-
-.dentist {
-    fill: #2887D9;
-    background-image: src('./images/service/dentist');
-}
-
-.gastritis {
-    background-image: src('./images/service/gastritis');
-}
-
-.lab {
-    background-image: src('./images/service/lab');
-}
-
-.more {
-    background-image: src('./images/service/more');
-}
-
-.neurologist {
-    background-image: src('./images/service/neurologist');
-}
-
-.orthpaedist {
-    background-image: src('./images/service/orthpaedi');
-}
-
-.urologist {
-    background-image: src('./images/service/urologist');
-}
-
-.urologist {
-    background-image: src('./images/service/vaccination');
-}
+// Tablet
