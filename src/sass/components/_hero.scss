@@ -63,5 +63,7 @@ text-align: center;
 }
 .gh{
     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
     

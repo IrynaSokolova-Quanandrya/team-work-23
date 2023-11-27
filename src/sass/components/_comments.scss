@@ -8,6 +8,9 @@
   }
 .section-what-say-our-clients{
     background-color: #D0E1F1;
+    @media screen and (max-width: 1365px) {
+        padding: 32px 23px 55px ;
+    }
 }
 .title-what-say-our-clients{
     color: var(--blue-dark-blue, #2887D9);
@@ -18,8 +21,8 @@
         font-style: normal;
         font-weight: 700;
         line-height: 18px; /* 112.5% */
-        margin-top: 32px;
-        margin-left: 23px;
+        // margin-top: 32px;
+        // margin-left: 23px;
     }
     @media screen and (min-width: 1366px) and (max-width: 1919px) {
         font-family: Open Sans;
@@ -41,8 +44,8 @@
 }
 .container-comments{
     @media screen and (max-width: 1365px) {
-        margin-top: 34px;
-        margin-left: 23px;
+        margin-top: 24px;
+        // margin-left: 23px;
     }
     @media screen and (min-width: 1366px) and (max-width: 1919px) {
         margin-top: 24px;
@@ -122,7 +125,7 @@
         background: #F2F3F5;
         margin-left: 61px;
         margin-top: 25px;
-    }
+}
     @media screen and (min-width: 1366px) and (max-width: 1919px) {
         display: inline-flex;
         height: 242px;
@@ -152,7 +155,7 @@
     }
 }
 .foto-for-comment{
-    position: absolute;
+
     @media screen and (max-width: 1365px) {
         width: 77.971px;
         height: 79.621px;
@@ -160,6 +163,8 @@
         border-radius: 41.255px;
         border: 0.413px solid #2887D9;
         background: lightgray 50% / cover no-repeat;
+        position: absolute;
+        top: 113px;
     }
     @media screen and (min-width: 1366px) and (max-width: 1919px) {
         width: 140px;
@@ -182,7 +187,7 @@
     }
 }
 .foto-for-comment-1{
-    position: absolute;
+    
     @media screen and (max-width: 1365px) {
         width: 77.971px;
         height: 79.621px;
@@ -190,6 +195,8 @@
         border-radius: 41.255px;
         border: 0.413px solid #2958E5;
         background: lightgray 50% / cover no-repeat;
+        position: absolute;
+        top: 285px;
     }
     @media screen and (min-width: 1366px) and (max-width: 1919px) {
         width: 140px;
@@ -262,17 +269,11 @@
         left: 558px;
         top: 898px;
         bottom: 23px;
-    }
-}
-.divchuk-fon{
-    @media screen and (max-width: 1365px) {
-        display: none;
-    }
-}
 
+}
+}
 .fon{
     @media screen and (max-width: 1365px) {
-        // display: none;
         width: 153px;
         height: 150.529px;
         flex-shrink: 0;
