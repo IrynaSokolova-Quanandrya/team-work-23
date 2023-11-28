@@ -43,7 +43,9 @@ justify-content: space-around;
 }
 
 .hero-f{
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
     border-bottom: 1px solid var(--blue-blue, #72B7F2);
     min-width: 1042px;
 }
