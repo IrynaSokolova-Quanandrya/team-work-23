@@ -80,13 +80,14 @@
 
 .service-section {
     @media screen and (min-width: $tablet) {
-    width: 1366px;
-    height: 526px;
-}
+        width: 1366px;
+        height: 526px;
+    }
+
     @media screen and (min-width: $desktop) {
-    width: 1920px;
-    height: 738px;
-}
+        width: 1920px;
+        height: 738px;
+    }
 }
 
 .service-list {
@@ -102,12 +103,12 @@
         width: 1228px;
         height: 438px;
     }
+
     @media screen and (min-width: $desktop) {
         width: 1850px;
         height: 594px;
         margin-left: 100px;
     }
-    
 }
 
 .service-frame {
@@ -148,7 +149,6 @@
     background-repeat: no-repeat;
     width: 100px;
     height: 100px;
-
     
     @media screen and (min-width: $tablet) {
         left: 55;
