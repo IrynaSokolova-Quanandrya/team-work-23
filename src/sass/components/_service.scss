@@ -79,15 +79,8 @@
 }
 
 .service-section {
-    @media screen and (min-width: $tablet) {
-        width: 1366px;
-        height: 526px;
-    }
-
-    @media screen and (min-width: $desktop) {
-        width: 1920px;
-        height: 738px;
-    }
+    width: 1920px;
+    height: 738px;
 }
 
 .service-list {
