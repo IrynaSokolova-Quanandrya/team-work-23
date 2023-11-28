@@ -1,21 +1,17 @@
-// General
-
-
-
 .my-div {
     padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 
-  @media screen and (min-width: $tablet) {
-    width: $tablet;
-    height: 594px;
-  }
-  @media screen and (min-width: $desktop) {
-    width: $desktop;
-    height: 766px;
-  }
+    @media screen and (min-width: $tablet) {
+        width: $tablet;
+        height: 594px;
+    }
+    @media screen and (min-width: $desktop) {
+        width: $desktop;
+        height: 766px;
+    }
 }
 
 .cardiologist {
@@ -46,38 +42,40 @@
     background-image: url('/src/images/service/neurologist.svg');
 }
 
-// .orthpaedist {
-//     background-image: url('/src/images/service/orthpaedist.svg');
-// }
+.orthopaedist {
+    background-image: url('/src/images/service/orthopaedist.svg');
+}
 
-// .urologist {
-//     background-image: url('/src/images/service/urologist.svg');
-// }
+.urologist {
+    background-image: url('/src/images/service/urologist.svg');
+    margin-left: 12;
+}
 
 .vaccination {
     background-image: url('/src/images/service/vaccination.svg');
 }
 
-// Desktop
+// Adaptive
 
 .service-section-title {
     color: #2887D9;
     font-family: Open Sans;
 
     @media screen and (min-width: $tablet) {
-    margin-left: 40px ;
-    margin-bottom: 35px;
-    font-size: 34.15px;
-    font-weight: 600;
-    line-height: 31.304px; /* 91.667% */
-}
+        margin-left: 40px ;
+        margin-bottom: 35px;
+        font-size: 34.15px;
+        font-weight: 600;
+        line-height: 31.304px;
+    }
+
     @media screen and (min-width: $desktop) {
-    margin-left: 100px ;
-    margin-bottom: 62px;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 44px;
-}
+        margin-left: 100px ;
+        margin-bottom: 62px;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 44px;
+    }
 }
 
 .service-section {
@@ -93,36 +91,34 @@
 
 .service-list {
     padding: 0px;
-
-    
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     margin-bottom: -54px;
     margin-right: -92px;
+
     @media screen and (min-width: $tablet) {
-    margin-left: 71.15px;
-    width: 1228px;
-    height: 438px;
-        }
+        margin-left: 71.15px;
+        width: 1228px;
+        height: 438px;
+    }
     @media screen and (min-width: $desktop) {
-    width: 1850px;
-    height: 594px;
-    margin-left: 100px;
+        width: 1850px;
+        height: 594px;
+        margin-left: 100px;
     }
     
 }
 
 .service-frame {
+    border: 1px solid #72B7F2;
+    border-radius: 50px;
 
-        border: 1px solid #72B7F2;
-        border-radius: 50px;
-
-        @media screen and (min-width: $tablet) {
-    margin-bottom: 38px;
-    margin-right: 65.45px;
-    width: 180px;
-    height: 180px;
+    @media screen and (min-width: $tablet) {
+        margin-bottom: 38px;
+        margin-right: 65.45px;
+        width: 180px;
+        height: 180px;
     }
 
     @media screen and (min-width: $desktop) {
@@ -130,7 +126,7 @@
         margin-right: 92px;
         width: 270px;
         height: 270px;
-}
+    }
 }
 
 .service-frame:not(:last-child) {
@@ -155,24 +151,17 @@
 
     
     @media screen and (min-width: $tablet) {
-        left: 49;
+        left: 55;
         width: 71.146px;
         height: 71.146px;
-            }
-        @media screen and (min-width: $desktop) {
-            left: 88;
-            width: 100px;
-            height: 100px;
-        }
+    }
+
+    @media screen and (min-width: $desktop) {
+        left: 88;
+        width: 100px;
+        height: 100px;
+    }
 }
-
-// .service-frame svg:not(:last-child) {
-//     background-color: #CEF2F0;
-// }
-
-// .service-frame svg:last-child {
-//     background-color: #fff;
-// }
 
 .service-frame a {
     padding-top: 65px;
@@ -182,30 +171,27 @@
 
     @media screen and (min-width: $tablet) {
         padding-top: 30px;
-            }
-        @media screen and (min-width: $desktop) {
-            padding-top: 65px;
-        }
+    }
+
+    @media screen and (min-width: $desktop) {
+        padding-top: 65px;
+    }
 }
 
 .service-text {
     display: flex;
     justify-content: center;
     font-family: 'Open Sans';
-    // color: #2887D9;
-    // font-size: 24px;
-    // font-weight: 400;
-    // line-height: 44px;
-    @media screen and (min-width: $tablet) {
-        font-size: 17.075px;
-        font-weight: 400;
-        line-height: 31.304px;
-            }
-        @media screen and (min-width: $desktop) {
-            font-size: 24px;
-            font-weight: 400;
-            line-height: 44px;
-        }
-}
 
-// Tablet
+    @media screen and (min-width: $tablet) {
+    font-size: 17.075px;
+    font-weight: 400;
+    line-height: 31.304px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 44px;
+    }
+}
